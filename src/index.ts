@@ -1,43 +1,112 @@
 import { ponder, type Context, type Event } from "ponder:registry";
 import schema from "ponder:schema";
+import { EProtocol } from "./const";
+import { getTokenInfo } from "./utils";
 
-ponder.on("UniswapV3Factory:PoolCreated", async ({ event, context }) => {
+ponder.on("HyperswapV2Factory:PairCreated", async ({ event, context }) => {
+  console.log("HyperswapV2Factory:PairCreated");
+
+  const [token0, token1, pair, _] = event.args;
+
+  const {
+    name: token0Name,
+    symbol: token0Symbol,
+    decimals: token0Decimals,
+  } = await getTokenInfo(token0);
+  const {
+    name: token1Name,
+    symbol: token1Symbol,
+    decimals: token1Decimals,
+  } = await getTokenInfo(token1);
+
   await context.db.insert(schema.pool).values({
     chainId: context.chain.id,
-    address: event.args.pool,
-    token0: event.args.token0,
-    token1: event.args.token1,
+    protocol: EProtocol.HyperswapV2,
+    poolAddress: pair,
+    poolName: `${token0Name}-${token1Name}`,
+    token0: token0,
+    token1: token1,
+    token0Name: token0Name,
+    token0Symbol: token0Symbol,
+    token0Decimals: token0Decimals,
+    token1Name: token1Name,
+    token1Symbol: token1Symbol,
+    token1Decimals: token1Decimals,
+    extraData: {},
   });
+  console.log("Row Inserted");
 });
 
-ponder.on("UniswapV3Pool:Swap", async ({ event, context }) => {
-  await createAccounts(event, context);
+ponder.on("HyperswapV3Factory:PoolCreated", async ({ event, context }) => {
+  console.log("HyperswapV3Factory:PoolCreated");
 
-  await context.db.insert(schema.swapEvent).values({
+  const { token0, token1, fee, tickSpacing, pool } = event.args;
+
+  const {
+    name: token0Name,
+    symbol: token0Symbol,
+    decimals: token0Decimals,
+  } = await getTokenInfo(token0);
+  const {
+    name: token1Name,
+    symbol: token1Symbol,
+    decimals: token1Decimals,
+  } = await getTokenInfo(token1);
+
+  await context.db.insert(schema.pool).values({
     chainId: context.chain.id,
-    swapId: event.id,
-    pool: event.log.address,
-    sender: event.args.sender,
-    recipient: event.args.recipient,
-    amount0: event.args.amount0,
-    amount1: event.args.amount1,
-    timestamp: Number(event.block.timestamp),
+    protocol: EProtocol.HyperswapV3,
+    poolAddress: pool,
+    poolName: `${token0Name}-${token1Name}`,
+    token0: token0,
+    token1: token1,
+    token0Name: token0Name,
+    token0Symbol: token0Symbol,
+    token0Decimals: token0Decimals,
+    token1Name: token1Name,
+    token1Symbol: token1Symbol,
+    token1Decimals: token1Decimals,
+    extraData: {
+      fee,
+    },
   });
+  console.log("Row Inserted");
 });
 
-async function createAccounts(
-  event: Event<"UniswapV3Pool:Swap">,
-  context: Context
-) {
-  const sender = await context.db
-    .insert(schema.account)
-    .values({ address: event.args.sender })
-    .onConflictDoNothing();
+ponder.on("HybraFinanceFactory:PoolCreated", async ({ event, context }) => {
+  console.log("HybraFinanceFactory:PoolCreated");
 
-  const recipient = await context.db
-    .insert(schema.account)
-    .values({ address: event.args.sender })
-    .onConflictDoNothing();
+  const { token0, token1, fee, tickSpacing, pool } = event.args;
 
-  return { sender, recipient };
-}
+  const {
+    name: token0Name,
+    symbol: token0Symbol,
+    decimals: token0Decimals,
+  } = await getTokenInfo(token0);
+
+  const {
+    name: token1Name,
+    symbol: token1Symbol,
+    decimals: token1Decimals,
+  } = await getTokenInfo(token1);
+
+  await context.db.insert(schema.pool).values({
+    chainId: context.chain.id,
+    protocol: EProtocol.HybraFinance,
+    poolAddress: pool,
+    poolName: `${token0Name}-${token1Name}`,
+    token0: token0,
+    token1: token1,
+    token0Name: token0Name,
+    token0Symbol: token0Symbol,
+    token0Decimals: token0Decimals,
+    token1Name: token1Name,
+    token1Symbol: token1Symbol,
+    token1Decimals: token1Decimals,
+    extraData: {
+      fee,
+    },
+  });
+
+  console.log("Row Inserted");
+});

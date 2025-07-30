@@ -1,18 +1,20 @@
 import { createConfig, factory } from "ponder";
-import { getAbiItem } from "viem";
 import { UniswapV3FactoryAbi } from "./abis/UniswapV3FactoryAbi";
-import { UniswapV3PoolAbi } from "./abis/UniswapV3PoolAbi";
-
-const factoryEventAbiItem = getAbiItem({
-  abi: UniswapV3FactoryAbi,
-  name: "PoolCreated",
-});
+import { EProtocol, ProtocolMap } from "./src/const";
+import { UniswapV2FactoryAbi } from "./abis/UniswapV2FactoryAbi";
 
 export default createConfig({
   chains: {
     hyperevm: {
       id: 999,
-      rpc: "https://rpc.purroofgroup.com",
+      rpc: [
+        "https://rpc.purroofgroup.com",
+        "https://rpc.hyperliquid.xyz/evm",
+        "https://rpc.hyperlend.finance",
+        "https://rpc.hypurrscan.io",
+        "https://hyperliquid.drpc.org",
+        "https://hyperliquid-json-rpc.stakely.io",
+      ],
     },
   },
   database: {
@@ -20,26 +22,30 @@ export default createConfig({
     connectionString: "postgresql://postgres:postgres@localhost:5432/postgres",
   },
   contracts: {
-    UniswapV3Pool: {
-      abi: UniswapV3PoolAbi,
+    HyperswapV2Factory: {
+      abi: UniswapV2FactoryAbi,
       chain: {
         hyperevm: {
-          address: factory({
-            address: "0xB1c0fa0B789320044A6F623cFe5eBda9562602E3",
-            event: factoryEventAbiItem,
-            parameter: "pool",
-            startBlock: 11648,
-          }),
-          startBlock: "latest",
+          address: ProtocolMap[EProtocol.HyperswapV2].factory_address,
+          startBlock: ProtocolMap[EProtocol.HyperswapV2].factory_deploy_block,
         },
       },
     },
-    UniswapV3Factory: {
+    HyperswapV3Factory: {
       abi: UniswapV3FactoryAbi,
       chain: {
         hyperevm: {
-          address: "0xB1c0fa0B789320044A6F623cFe5eBda9562602E3",
-          startBlock: 11648,
+          address: ProtocolMap[EProtocol.HyperswapV3].factory_address,
+          startBlock: ProtocolMap[EProtocol.HyperswapV3].factory_deploy_block,
+        },
+      },
+    },
+    HybraFinanceFactory: {
+      abi: UniswapV3FactoryAbi,
+      chain: {
+        hyperevm: {
+          address: ProtocolMap[EProtocol.HyperswapV3].factory_address,
+          startBlock: ProtocolMap[EProtocol.HyperswapV3].factory_deploy_block,
         },
       },
     },
