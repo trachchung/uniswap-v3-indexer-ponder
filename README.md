@@ -16,6 +16,9 @@ docker compose up -d
 
 ```bash
 pnpm dev
+
+# Debug mode
+pnpm dev -v --log-format json
 ```
 
 ## Indexing logic

@@ -8,4 +8,10 @@ const app = new Hono();
 app.use("/", graphql({ db, schema }));
 app.use("/graphql", graphql({ db, schema }));
 
+app.get("/pools", async (c) => {
+  const pools = await db.select().from(schema.pool);
+
+  return c.json(pools);
+});
+
 export default app;
