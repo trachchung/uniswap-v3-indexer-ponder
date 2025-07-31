@@ -18,15 +18,21 @@ const logger = winston.createLogger({
   transports: [
     // Write all logs with level 'info' and below to output.log
     new winston.transports.File({
-      filename: path.join(logsDir, "output.log"),
-      maxsize: 10242880, // 10MB
+      filename: path.join(logsDir, "all.log"),
+      maxsize: 10242880, // 100MB
+      maxFiles: 5,
+    }),
+    new winston.transports.File({
+      filename: path.join(logsDir, "info.log"),
+      level: "info",
+      maxsize: 10242880, // 100MB
       maxFiles: 5,
     }),
     // Write all logs with level 'error' and below to error.log
     new winston.transports.File({
       filename: path.join(logsDir, "error.log"),
       level: "error",
-      maxsize: 10242880, // 10MB
+      maxsize: 10242880, // 100MB
       maxFiles: 5,
     }),
   ],
