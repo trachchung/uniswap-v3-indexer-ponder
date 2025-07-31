@@ -9,14 +9,24 @@ export default createConfig({
     hyperevm: {
       id: 999,
       rpc: loadBalance([
-        // http("https://rpc.purroofgroup.com"),
-        // http("https://rpc.hyperliquid.xyz/evm"),
-        // rateLimit(http("https://rpc.hyperlend.finance"), {
-        //   requestsPerSecond: 10,
-        // }),
-        http("https://rpc.hypurrscan.io"),
-        // http("https://hyperliquid.drpc.org"),
-        // http("https://hyperliquid-json-rpc.stakely.io"),
+        rateLimit(http("https://rpc.purroofgroup.com"), {
+          requestsPerSecond: 1,
+        }),
+        rateLimit(http("https://rpc.hyperliquid.xyz/evm"), {
+          requestsPerSecond: 1,
+        }),
+        rateLimit(http("https://rpc.hyperlend.finance"), {
+          requestsPerSecond: 1,
+        }),
+        rateLimit(http("https://rpc.hypurrscan.io"), {
+          requestsPerSecond: 1,
+        }),
+        rateLimit(http("https://hyperliquid.drpc.org"), {
+          requestsPerSecond: 1,
+        }),
+        rateLimit(http("https://hyperliquid-json-rpc.stakely.io"), {
+          requestsPerSecond: 1,
+        }),
       ]),
     },
   },

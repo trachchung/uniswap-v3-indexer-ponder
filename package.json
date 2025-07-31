@@ -10,7 +10,8 @@
     "serve": "ponder serve",
     "lint": "eslint .",
     "typecheck": "tsc",
-    "sql": "tsx src/sql-client.ts"
+    "sql": "tsx src/sql-client.ts",
+    "dexscreener": "tsx src/dexscreener.ts"
   },
   "dependencies": {
     "@ponder/client": "^0.11.41",
