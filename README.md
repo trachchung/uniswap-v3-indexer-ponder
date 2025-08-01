@@ -21,6 +21,12 @@ pnpm dev
 pnpm dev -v --log-format json
 ```
 
+3. Convert files to pairs
+
+```bash
+pnpm convert-files-to-pairs
+```
+
 ## Indexing logic
 
 The `ponder.config.ts` file registers two contracts:

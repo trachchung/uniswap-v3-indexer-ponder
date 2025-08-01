@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "typecheck": "tsc",
     "sql": "tsx src/sql-client.ts",
-    "dexscreener": "tsx src/dexscreener.ts"
+    "dexscreener": "tsx src/dexscreener.ts",
+    "convert-files-to-pairs": "tsx src/convert-files-to-pairs.ts"
   },
   "dependencies": {
     "@ponder/client": "^0.11.41",

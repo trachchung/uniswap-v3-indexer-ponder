@@ -10,22 +10,22 @@ export default createConfig({
       id: 999,
       rpc: loadBalance([
         rateLimit(http("https://rpc.purroofgroup.com"), {
-          requestsPerSecond: 1,
+          requestsPerSecond: 0.1,
         }),
         rateLimit(http("https://rpc.hyperliquid.xyz/evm"), {
-          requestsPerSecond: 1,
+          requestsPerSecond: 0.1,
         }),
         rateLimit(http("https://rpc.hyperlend.finance"), {
-          requestsPerSecond: 1,
+          requestsPerSecond: 0.1,
         }),
         rateLimit(http("https://rpc.hypurrscan.io"), {
-          requestsPerSecond: 1,
+          requestsPerSecond: 0.1,
         }),
         rateLimit(http("https://hyperliquid.drpc.org"), {
-          requestsPerSecond: 1,
+          requestsPerSecond: 0.1,
         }),
         rateLimit(http("https://hyperliquid-json-rpc.stakely.io"), {
-          requestsPerSecond: 1,
+          requestsPerSecond: 0.1,
         }),
       ]),
     },
