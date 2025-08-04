@@ -77,6 +77,46 @@ export async function fetchExtraData(
           }),
         },
       };
+    case EProtocol.ProjectX:
+      return {
+        [protocol]: {
+          fee: await client.readContract({
+            abi: UniswapV3PoolAbi,
+            address: pairAddress,
+            functionName: "fee",
+          }),
+        },
+      };
+    case EProtocol.RamsesV2:
+      return {};
+    case EProtocol.RamsesV3:
+      return {
+        [protocol]: {
+          fee: await client.readContract({
+            abi: UniswapV3PoolAbi,
+            address: pairAddress,
+            functionName: "fee",
+          }),
+        },
+      };
+    case EProtocol.Gliquid:
+      throw new Error(`[fetchExtraData]: Unsupported protocol: ${protocol}`);
+    case EProtocol.HyperBrick:
+      throw new Error(`[fetchExtraData]: Unsupported protocol: ${protocol}`);
+    case EProtocol.LaminarV2:
+      return {};
+    case EProtocol.LaminarV3:
+      return {
+        [protocol]: {
+          fee: await client.readContract({
+            abi: UniswapV3PoolAbi,
+            address: pairAddress,
+            functionName: "fee",
+          }),
+        },
+      };
+    case EProtocol.HyperCat:
+      throw new Error(`[fetchExtraData]: Unsupported protocol: ${protocol}`);
     default:
       throw new Error(`[fetchExtraData]: Unsupported protocol: ${protocol}`);
   }

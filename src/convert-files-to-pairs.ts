@@ -4,13 +4,22 @@ import { fetchExtraData, getToken01, getTokenInfo } from "./utils";
 import { Address } from "viem";
 import { EProtocol } from "./const";
 
+// pnpm convert-files-to-pairs
 async function main() {
   const CURRENT_DIR = process.cwd();
 
   const protocols = [
-    EProtocol.HyperswapV2,
-    EProtocol.HyperswapV3,
-    EProtocol.HybraFinance,
+    // EProtocol.HyperswapV2,
+    // EProtocol.HyperswapV3,
+    // EProtocol.HybraFinance,
+    EProtocol.ProjectX,
+    EProtocol.RamsesV2,
+    EProtocol.RamsesV3,
+    // EProtocol.Gliquid,
+    // EProtocol.HyperBrick,
+    EProtocol.LaminarV2,
+    EProtocol.LaminarV3,
+    // EProtocol.HyperCat,
   ];
 
   // Process pairs for each protocol

@@ -1,0 +1,2 @@
+laminarv2|0xdf4686094eba30ed8d64cbe99edd3b8c1bec4259|WHYPE-UBTC|[{"address":"0x5555555555555555555555555555555555555555","name":"Wrapped HYPE","symbol":"WHYPE","decimals":18},{"address":"0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463","name":"Unit Bitcoin","symbol":"UBTC","decimals":8}]|{}
+laminarv2|0x57af97345bf010dc4311bd9e668b79886bab7f72|feUSD-WHYPE|[{"address":"0x02c6a2fA58cC01A18B8D9E00eA48d65E4dF26c70","name":"feUSD","symbol":"feUSD","decimals":18},{"address":"0x5555555555555555555555555555555555555555","name":"Wrapped HYPE","symbol":"WHYPE","decimals":18}]|{}

@@ -1,0 +1,4940 @@
+[
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0xaf40975fefd9818431d4b8629d303026869837d1",
+            "token": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 4574450,
+            "creationTime": "2025-05-31T15:37:00.000Z",
+            "creationTransaction": "0xea1eb089b3ee334e87e37bdb970adfe439eb420f9d98caf87650c4ac4e68090e",
+            "dextScore": {
+                "information": 81,
+                "holders": 99,
+                "pool": 47,
+                "transactions": 99,
+                "creation": 99,
+                "total": 88
+            },
+            "locks": [],
+            "metrics": {
+                "liquidity": 93572.94213826652,
+                "txCount": 5369636,
+                "initialLiquidity": 6.489998055571164,
+                "initialLiquidityUpdatedAt": "2025-05-31T16:13:35.540Z",
+                "initialReserve": 3.25,
+                "initialReserveRef": 0.09891551525691744,
+                "reserve": 32661.066998999817,
+                "reserveRef": 1595.4091806203303
+            },
+            "name": "USD₮0",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "USD₮0",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "pool": {
+                "openPrice": {
+                    "usd": 0.9954409310899368,
+                    "eth": 0.03043603409435384,
+                    "blockNumber": 4574557
+                }
+            },
+            "periodStats": {
+                "1h": {
+                    "volume": {
+                        "total": 3126.6500082239095,
+                        "buys": 696.6703868487241,
+                        "sells": 2429.979621375185
+                    },
+                    "swaps": {
+                        "total": 67,
+                        "buys": 9,
+                        "sells": 58
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 1.0024753413727499,
+                            "last": 1.0032956806790165,
+                            "min": 0.9976785301614011,
+                            "max": 1.004392362304549,
+                            "diff": 0.08183137005079266
+                        },
+                        "chain": {
+                            "first": 0.026468694655245015,
+                            "last": 0.026324928649218527,
+                            "min": 0.026324928649218527,
+                            "max": 0.026468694655245015,
+                            "diff": -0.5431548774846734
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 107033.5804454415,
+                            "last": 107497.4363686363,
+                            "min": 106704.28063567643,
+                            "max": 107502.57855241647,
+                            "diff": 0.4333742001943441
+                        }
+                    },
+                    "makers": 40,
+                    "updatedAt": "2025-08-03T16:25:44.000Z",
+                    "volatility": 0.0290858099862198
+                },
+                "5m": {
+                    "volume": {
+                        "total": 513.5733782372091,
+                        "buys": 0,
+                        "sells": 513.5733782372091
+                    },
+                    "swaps": {
+                        "total": 15,
+                        "buys": 0,
+                        "sells": 15
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 1.0027660030559047,
+                            "last": 1.0032956806790165,
+                            "min": 1.0027660030559047,
+                            "max": 1.0035444829637146,
+                            "diff": 0.052821657445273035
+                        },
+                        "chain": {
+                            "first": 0.026367069050403744,
+                            "last": 0.026324928649218527,
+                            "min": 0.026324928649218527,
+                            "max": 0.026367069050403744,
+                            "diff": -0.1598220913544096
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 107331.77723588968,
+                            "last": 107497.4363686363,
+                            "min": 107331.77723588968,
+                            "max": 107502.57855241647,
+                            "diff": 0.15434304454174
+                        }
+                    },
+                    "makers": 15,
+                    "updatedAt": "2025-08-03T16:25:44.000Z",
+                    "volatility": 0.004777540707817758
+                },
+                "6h": {
+                    "volume": {
+                        "total": 41981.24749592205,
+                        "buys": 26173.167195501446,
+                        "sells": 15808.080300420599
+                    },
+                    "swaps": {
+                        "total": 419,
+                        "buys": 137,
+                        "sells": 282
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 1.0022618546115905,
+                            "last": 1.0032956806790165,
+                            "min": 0.9959759055476353,
+                            "max": 1.0054641922305443,
+                            "diff": 0.10314929802718292
+                        },
+                        "chain": {
+                            "first": 0.02564050895678044,
+                            "last": 0.026324928649218527,
+                            "min": 0.025501150810242307,
+                            "max": 0.0265541586337415,
+                            "diff": 2.6692905885438694
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 109158.33141541143,
+                            "last": 107497.4363686363,
+                            "min": 106317.98894095415,
+                            "max": 109648.2258886959,
+                            "diff": -1.5215467525373287
+                        }
+                    },
+                    "makers": 101,
+                    "updatedAt": "2025-08-03T16:25:44.000Z",
+                    "volatility": 0.3905325458363265
+                },
+                "24h": {
+                    "volume": {
+                        "total": 147786.77028616238,
+                        "buys": 71474.6721932705,
+                        "sells": 76312.0980928919
+                    },
+                    "swaps": {
+                        "total": 1968,
+                        "buys": 535,
+                        "sells": 1433
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.9971747279796069,
+                            "last": 1.0032956806790165,
+                            "min": 0.9939725292143746,
+                            "max": 1.015488647010088,
+                            "diff": 0.6138295052674838
+                        },
+                        "chain": {
+                            "first": 0.02670884499744494,
+                            "last": 0.026324928649218527,
+                            "min": 0.025501150810242307,
+                            "max": 0.028384633469646908,
+                            "diff": -1.4374127681790103
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 105445.22429459105,
+                            "last": 107497.4363686363,
+                            "min": 100214.05831024077,
+                            "max": 109648.2258886959,
+                            "diff": 1.9462352019962679
+                        }
+                    },
+                    "makers": 182,
+                    "updatedAt": "2025-08-03T16:25:44.000Z",
+                    "volatility": 1.374793439532489
+                }
+            },
+            "firstSwapTimestamp": "2025-06-02T10:53:46.000Z",
+            "rugPull": {
+                "liquidityRemoved": true
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 6,
+            "locks": [],
+            "name": "USD₮0",
+            "symbol": "USD₮0",
+            "totalSupply": "109481749565420",
+            "metrics": {
+                "circulatingSupply": 109481748.06542,
+                "maxSupply": 109481749.56542,
+                "totalSupply": 109481748.06542,
+                "holders": 19432,
+                "mcap": 109842564.94722416,
+                "fdv": 109842564.94722416
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "usdt0",
+                "description": "USDT0 ensures fast, secure, and cost-efficient cross-chain transfers all while maintaining a strict 1:1 backing with USDT.",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "ventures": false,
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                }
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "https://twitter.com/USDT0_to",
+                "website": "https://usdt0.to/",
+                "youtube": "",
+                "twitterPost": ""
+            },
+            "logo": "3/hyperevm/0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb.jpg?1737086183",
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex47b072",
+                    "pair": "0x161fb7d6c764f81dae581e8a4981772750416727",
+                    "token": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:27:12.505Z"
+            },
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0xb26f13f2fc6489e0a9d8733a0d83a1c771388dec",
+                "0xe8598c9723497643d8408f4620c756d2b65dc404",
+                "0xaf40975fefd9818431d4b8629d303026869837d1",
+                "0xf40d57783c3359f160d006b9bc7a2e4311fe6a86",
+                "0x337b56d87a6185cd46af3ac2cdf03cbc37070c30",
+                "0xa7bf1d0a3220151911fd76d608c207fc10bc84cd",
+                "0x13e0ace1ee157f21a253dfec9397e3a8025a5140",
+                "0x0b46e12fa89e9c81b74137d86154c1d1d45cb0af",
+                "0x80dd3611eac192fe6e6a6344670537431f735cc3",
+                "0x2990057d4afc1e84b89dee01aa18c225c5f9a75e",
+                "0x286bedd95e410bae6d143fb2b5fe14c0083003f7",
+                "0x7f63ac9b82905d870071024fa310cf0ab8a74ad1",
+                "0x4bebb3107aa4c47ff88668dbea560b75b2d36d6e",
+                "0x07a72dd310f836adc4bd202278c8adfe73577896",
+                "0x4bd892af63015e7c56c1381c220c642d65d0f0b6",
+                "0xb8c413ebf3985fd92e5cc416422e805cfd8b8165"
+            ]
+        },
+        "price": 1.0032956806790165,
+        "price24h": 1.0008075881476879,
+        "volume24h": 153137.59319337612,
+        "swaps24h": 1993
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x2382e66c0a7e0e7da46fa8ea518d3047e7bd34d2",
+            "token": "0xb50a96253abdf803d85efcdce07ad8becbc52bd5",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 5839585,
+            "creationTime": "2025-06-15T12:14:00.000Z",
+            "creationTransaction": "0xed210bbda907134088112d9a53bb6251fda4d1bd929ed33a4fb0f7e4fd26d822",
+            "dextScore": {
+                "information": 71,
+                "holders": 99,
+                "pool": 15,
+                "transactions": 99,
+                "creation": 99,
+                "total": 79
+            },
+            "metrics": {
+                "liquidity": 29118.019076039927,
+                "txCount": 1454368,
+                "initialLiquidity": 0.08038739169138243,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:19:09.395Z",
+                "initialReserve": 0.0009989999999999999,
+                "initialReserveRef": 0.0009990972584613981,
+                "reserve": 6001.507810999949,
+                "reserveRef": 605.9108768854835
+            },
+            "name": "Hyper USD",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "USDHL",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 40.23394292640678,
+                    "eth": 1.0000980096049412,
+                    "blockNumber": 5839585
+                }
+            },
+            "firstSwapTimestamp": "2025-06-15T12:17:40.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 140.55272387865625,
+                        "buys": 0,
+                        "sells": 140.55272387865625
+                    },
+                    "swaps": {
+                        "total": 7,
+                        "buys": 0,
+                        "sells": 7
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 1.0043355075852494,
+                            "last": 1.004004981070986,
+                            "min": 1.0037263142026271,
+                            "max": 1.0043355075852494,
+                            "diff": -0.032909970001773266
+                        },
+                        "chain": {
+                            "first": 0.026390989793600206,
+                            "last": 0.026343539595691277,
+                            "min": 0.026343539595691277,
+                            "max": 0.026390989793600206,
+                            "diff": -0.17979696206936668
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 23814.712741554,
+                            "last": 23836.10927752506,
+                            "min": 23810.815994358607,
+                            "max": 23836.10927752506,
+                            "diff": 0.08984587050561194
+                        }
+                    },
+                    "makers": 7,
+                    "updatedAt": "2025-08-03T16:25:40.000Z",
+                    "volatility": 0.005896630286520068
+                },
+                "1h": {
+                    "volume": {
+                        "total": 551.1125128848794,
+                        "buys": 75.4928812213264,
+                        "sells": 475.619631663553
+                    },
+                    "swaps": {
+                        "total": 27,
+                        "buys": 3,
+                        "sells": 24
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 1.0038361971953536,
+                            "last": 1.004004981070986,
+                            "min": 0.9983514919086197,
+                            "max": 1.0052387911953324,
+                            "diff": 0.016813886180227427
+                        },
+                        "chain": {
+                            "first": 0.026493433549626647,
+                            "last": 0.026343539595691277,
+                            "min": 0.026343539595691277,
+                            "max": 0.026493433549626647,
+                            "diff": -0.5657777564187492
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 23763.905645639654,
+                            "last": 23836.10927752506,
+                            "min": 23695.338238230357,
+                            "max": 23836.846713720508,
+                            "diff": 0.30383739509021457
+                        }
+                    },
+                    "makers": 22,
+                    "updatedAt": "2025-08-03T16:25:40.000Z",
+                    "volatility": 0.02312090897336674
+                },
+                "6h": {
+                    "volume": {
+                        "total": 7964.474097260113,
+                        "buys": 4992.83571018746,
+                        "sells": 2971.638387072653
+                    },
+                    "swaps": {
+                        "total": 173,
+                        "buys": 63,
+                        "sells": 110
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 1.0027408263607127,
+                            "last": 1.004004981070986,
+                            "min": 0.9967969960446732,
+                            "max": 1.0068036833233145,
+                            "diff": 0.12606993522555954
+                        },
+                        "chain": {
+                            "first": 0.025652762320875763,
+                            "last": 0.026343539595691277,
+                            "min": 0.025471380284271303,
+                            "max": 0.026579156808826682,
+                            "diff": 2.6927987956032786
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 24409.298374274964,
+                            "last": 23836.10927752506,
+                            "min": 23616.043192079225,
+                            "max": 24512.541379469847,
+                            "diff": -2.34824077268025
+                        }
+                    },
+                    "makers": 68,
+                    "updatedAt": "2025-08-03T16:25:40.000Z",
+                    "volatility": 0.33413482060051525
+                },
+                "24h": {
+                    "volume": {
+                        "total": 25422.601261910626,
+                        "buys": 12241.64374502259,
+                        "sells": 13180.957516888038
+                    },
+                    "swaps": {
+                        "total": 725,
+                        "buys": 222,
+                        "sells": 503
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.9978528625973226,
+                            "last": 1.004004981070986,
+                            "min": 0.9958322896462145,
+                            "max": 1.0068036833233145,
+                            "diff": 0.6165356340863561
+                        },
+                        "chain": {
+                            "first": 0.02672700850669138,
+                            "last": 0.026343539595691277,
+                            "min": 0.025471380284271303,
+                            "max": 0.0280772561088617,
+                            "diff": -1.434761809964994
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 23821.042654724406,
+                            "last": 23836.10927752506,
+                            "min": 22413.106378111628,
+                            "max": 24512.541379469847,
+                            "diff": 0.06324921632961183
+                        }
+                    },
+                    "makers": 100,
+                    "updatedAt": "2025-08-03T16:25:40.000Z",
+                    "volatility": 1.0665583449846598
+                }
+            },
+            "rugPull": {
+                "priceDrop": false,
+                "liquidityRemoved": true
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 6,
+            "locks": [],
+            "name": "Hyper USD",
+            "symbol": "USDHL",
+            "totalSupply": "11114368585991",
+            "metrics": {
+                "circulatingSupply": null,
+                "maxSupply": 11114368.585991,
+                "totalSupply": 11114368.585991,
+                "holders": 5695,
+                "mcap": null,
+                "fdv": 11158881.421793856
+            },
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex2602e3",
+                    "pair": "0xa3bfe286bc067a9bd38ab0d45561213eb3012395",
+                    "token": "0xb50a96253abdf803d85efcdce07ad8becbc52bd5",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:26:12.053Z"
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "hyper-usd",
+                "description": "",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                },
+                "ventures": false
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "https://twitter.com/usd_hl",
+                "twitterPost": "",
+                "website": "https://usdhl.xyz/",
+                "youtube": ""
+            },
+            "logo": "3/hyperevm/0xb50a96253abdf803d85efcdce07ad8becbc52bd5.jpg?1750242294",
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0x2382e66c0a7e0e7da46fa8ea518d3047e7bd34d2",
+                "0x1aa07e8377d70b033ba139e007d51edf689b2ed3",
+                "0x06afd37ca550be67f7859f78007134ad0038d814",
+                "0xfcbed58ed3eb9aa1072d4190c0bfb05c7410975c",
+                "0xcffd02379e09ef7e9270fce7287f9a0fa1527279",
+                "0x1b059e13006b40511ebc83b36828f71226771783",
+                "0x25ffe70737b1aced180bd8f5a6d71b3ebe98e5ff",
+                "0x4cffc122077c2c34e09b6c695880ba1e9b833958",
+                "0x98780e152d2ad71eae5475b7ca99afa5ac260402",
+                "0x66af9cbe7e3efaaf66c6c0b59405c1f2bbe91643",
+                "0x1d4cea3be2d92ce79ff4ddfbd849804f79633ea2",
+                "0x7ac2636d097b967af871aaf65925230c7ea7dcff",
+                "0xe4c3d6eeb8bd61814bf32e3133327c28e891106a",
+                "0xc98bbac99657381209052ada43843909e588a653",
+                "0xb930532c9a2d590bf689d98993e8a29e64e6344a",
+                "0x1dbf9a117b328f081b3ada9c441c1b7da02d257b"
+            ]
+        },
+        "price": 1.004004981070986,
+        "price24h": 0.9974224398450057,
+        "volume24h": 26438.521604530873,
+        "swaps24h": 734
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x06afd37ca550be67f7859f78007134ad0038d814",
+            "token": "0xb50a96253abdf803d85efcdce07ad8becbc52bd5",
+            "tokenRef": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb"
+        },
+        "pair": {
+            "creationBlock": 5850870,
+            "creationTime": "2025-06-15T15:19:00.000Z",
+            "creationTransaction": "0x6eb7de3f84495ebc12ef00a96b91aac594c90980b23976655000fc21e26eb378",
+            "dextScore": {
+                "information": 71,
+                "holders": 99,
+                "pool": 48,
+                "transactions": 99,
+                "creation": 99,
+                "total": 86
+            },
+            "metrics": {
+                "liquidity": 95181.18640500316,
+                "txCount": 1454364,
+                "initialLiquidity": 2.0005500969918097,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:41:20.744Z",
+                "initialReserve": 0.9997149999999999,
+                "initialReserveRef": 0.9997149999999999,
+                "reserve": 21302.276273999414,
+                "reserveRef": 73764.16440900022
+            },
+            "name": "Hyper USD",
+            "nameRef": "USD₮0",
+            "symbol": "USDHL",
+            "symbolRef": "USD₮0",
+            "type": "token-token-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 1.0005602081552292,
+                    "eth": 0.02443549486299922,
+                    "blockNumber": 5850870
+                }
+            },
+            "firstSwapTimestamp": "2025-06-17T02:43:22.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 901.8288767102741,
+                        "buys": 901.8288767102741,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 1,
+                        "buys": 1,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 1.0016234251020262,
+                            "last": 1.0016234251020262,
+                            "min": 1.0016234251020262,
+                            "max": 1.0016234251020262,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0.026312809990595966,
+                            "last": 0.026312809990595966,
+                            "min": 0.026312809990595966,
+                            "max": 0.026312809990595966,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 95641.11149149532,
+                            "last": 95641.11149149532,
+                            "min": 95641.11149149532,
+                            "max": 95641.11149149532,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 1,
+                    "updatedAt": "2025-08-03T16:23:40.000Z",
+                    "volatility": 0.009429301506920142
+                },
+                "1h": {
+                    "volume": {
+                        "total": 3371.183154857392,
+                        "buys": 1950.1033532506797,
+                        "sells": 1421.0798016067124
+                    },
+                    "swaps": {
+                        "total": 6,
+                        "buys": 4,
+                        "sells": 2
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 1.0004187509602287,
+                            "last": 1.0016234251020262,
+                            "min": 1.0004187509602287,
+                            "max": 1.0016789775456203,
+                            "diff": 0.12041698944978797
+                        },
+                        "chain": {
+                            "first": 0.02644301934713686,
+                            "last": 0.026312809990595966,
+                            "min": 0.026312809990595966,
+                            "max": 0.02644301934713686,
+                            "diff": -0.4924148594059542
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 95526.11110218728,
+                            "last": 95641.11149149532,
+                            "min": 95526.11110218728,
+                            "max": 95646.93629827347,
+                            "diff": 0.12038634042688436
+                        }
+                    },
+                    "makers": 5,
+                    "updatedAt": "2025-08-03T16:23:40.000Z",
+                    "volatility": 0.035248264081050196
+                },
+                "6h": {
+                    "volume": {
+                        "total": 30934.403761363996,
+                        "buys": 14712.645060954688,
+                        "sells": 16221.758700409306
+                    },
+                    "swaps": {
+                        "total": 63,
+                        "buys": 28,
+                        "sells": 35
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 1.0017140996273455,
+                            "last": 1.0016234251020262,
+                            "min": 0.998375964467992,
+                            "max": 1.0029057081863209,
+                            "diff": -0.00905193661075883
+                        },
+                        "chain": {
+                            "first": 0.02561470068344147,
+                            "last": 0.026312809990595966,
+                            "min": 0.02549403594842015,
+                            "max": 0.0266226368003465,
+                            "diff": 2.7254244185089593
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 95645.93139848992,
+                            "last": 95641.11149149532,
+                            "min": 95347.12515838974,
+                            "max": 95759.77634173684,
+                            "diff": -0.005039322555726261
+                        }
+                    },
+                    "makers": 30,
+                    "updatedAt": "2025-08-03T16:23:40.000Z",
+                    "volatility": 0.3234425371992333
+                },
+                "24h": {
+                    "volume": {
+                        "total": 90325.27481838639,
+                        "buys": 47948.92662543504,
+                        "sells": 42376.34819295135
+                    },
+                    "swaps": {
+                        "total": 165,
+                        "buys": 88,
+                        "sells": 77
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.999632883949508,
+                            "last": 1.0016234251020262,
+                            "min": 0.998375964467992,
+                            "max": 1.0029057081863209,
+                            "diff": 0.19912721804965358
+                        },
+                        "chain": {
+                            "first": 0.026866074068735434,
+                            "last": 0.026312809990595966,
+                            "min": 0.02549403594842015,
+                            "max": 0.028093006808338254,
+                            "diff": -2.059340999075531
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 97748.78959465091,
+                            "last": 95641.11149149532,
+                            "min": 95347.12515838974,
+                            "max": 98033.65584535868,
+                            "diff": -2.156219132631516
+                        }
+                    },
+                    "makers": 78,
+                    "updatedAt": "2025-08-03T16:23:40.000Z",
+                    "volatility": 0.9444189157757579
+                }
+            },
+            "rugPull": {
+                "liquidityRemoved": true
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 6,
+            "locks": [],
+            "name": "Hyper USD",
+            "symbol": "USDHL",
+            "totalSupply": "11114368585991",
+            "metrics": {
+                "circulatingSupply": null,
+                "maxSupply": 11114368.585991,
+                "totalSupply": 11114368.585991,
+                "holders": 5695,
+                "mcap": null,
+                "fdv": 11132411.93094667
+            },
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex2602e3",
+                    "pair": "0xa3bfe286bc067a9bd38ab0d45561213eb3012395",
+                    "token": "0xb50a96253abdf803d85efcdce07ad8becbc52bd5",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:26:12.053Z"
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "hyper-usd",
+                "description": "",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                },
+                "ventures": false
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "https://twitter.com/usd_hl",
+                "twitterPost": "",
+                "website": "https://usdhl.xyz/",
+                "youtube": ""
+            },
+            "logo": "3/hyperevm/0xb50a96253abdf803d85efcdce07ad8becbc52bd5.jpg?1750242294",
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0x2382e66c0a7e0e7da46fa8ea518d3047e7bd34d2",
+                "0x1aa07e8377d70b033ba139e007d51edf689b2ed3",
+                "0x06afd37ca550be67f7859f78007134ad0038d814",
+                "0xfcbed58ed3eb9aa1072d4190c0bfb05c7410975c",
+                "0xcffd02379e09ef7e9270fce7287f9a0fa1527279",
+                "0x1b059e13006b40511ebc83b36828f71226771783",
+                "0x25ffe70737b1aced180bd8f5a6d71b3ebe98e5ff",
+                "0x4cffc122077c2c34e09b6c695880ba1e9b833958",
+                "0x98780e152d2ad71eae5475b7ca99afa5ac260402",
+                "0x66af9cbe7e3efaaf66c6c0b59405c1f2bbe91643",
+                "0x1d4cea3be2d92ce79ff4ddfbd849804f79633ea2",
+                "0x7ac2636d097b967af871aaf65925230c7ea7dcff",
+                "0xe4c3d6eeb8bd61814bf32e3133327c28e891106a",
+                "0xc98bbac99657381209052ada43843909e588a653",
+                "0xb930532c9a2d590bf689d98993e8a29e64e6344a",
+                "0x1dbf9a117b328f081b3ada9c441c1b7da02d257b"
+            ]
+        },
+        "price": 1.0016234251020262,
+        "price24h": 0.9998736178764758,
+        "volume24h": 92773.43197402681,
+        "swaps24h": 172
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x6269e727dfd6e7da641c7b1b1a1286a64687a330",
+            "token": "0xbe6727b535545c67d5caa73dea54865b92cf7907",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 5852578,
+            "creationTime": "2025-06-15T15:47:00.000Z",
+            "creationTransaction": "0xdc1c7b874634b20fc125c8e9d3eee89dda7af05d48db8f099cb61a766808d560",
+            "dextScore": {
+                "information": 71,
+                "holders": 99,
+                "pool": 5,
+                "transactions": 99,
+                "creation": 99,
+                "total": 77
+            },
+            "metrics": {
+                "liquidity": 8850.58157933182,
+                "txCount": 1189847,
+                "initialLiquidity": 4.067530003152896,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:47:33.451Z",
+                "initialReserve": 0.000801550717862609,
+                "initialReserveRef": 0.049848403185775346,
+                "reserve": 0.703046161939779,
+                "reserveRef": 167.97195608684268
+            },
+            "name": "Unit Ethereum",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "UETH",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 2537.287979729623,
+                    "eth": 62.18995513933242,
+                    "blockNumber": 5852578
+                }
+            },
+            "firstSwapTimestamp": "2025-06-19T13:19:23.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 26.15966732510792,
+                        "buys": 0,
+                        "sells": 26.15966732510792
+                    },
+                    "swaps": {
+                        "total": 1,
+                        "buys": 0,
+                        "sells": 1
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 3487.955643347723,
+                            "last": 3487.955643347723,
+                            "min": 3487.955643347723,
+                            "max": 3487.955643347723,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 91.56661880047577,
+                            "last": 91.56661880047577,
+                            "min": 91.56661880047577,
+                            "max": 91.56661880047577,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 9352.930952944916,
+                            "last": 9352.930952944916,
+                            "min": 9352.930952944916,
+                            "max": 9352.930952944916,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 1,
+                    "updatedAt": "2025-08-03T16:26:20.000Z",
+                    "volatility": 0.002796948620354258
+                },
+                "1h": {
+                    "volume": {
+                        "total": 59.743567374458806,
+                        "buys": 0,
+                        "sells": 59.743567374458806
+                    },
+                    "swaps": {
+                        "total": 5,
+                        "buys": 0,
+                        "sells": 5
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 3475.2191714257187,
+                            "last": 3487.955643347723,
+                            "min": 3475.2191714257187,
+                            "max": 3487.955643347723,
+                            "diff": 0.36649406249617583
+                        },
+                        "chain": {
+                            "first": 91.67508629908512,
+                            "last": 91.56661880047577,
+                            "min": 91.56661880047577,
+                            "max": 91.67508629908512,
+                            "diff": -0.11831731279258137
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 9310.760956383914,
+                            "last": 9352.930952944916,
+                            "min": 9310.760956383914,
+                            "max": 9352.930952944916,
+                            "diff": 0.4529167568423988
+                        }
+                    },
+                    "makers": 4,
+                    "updatedAt": "2025-08-03T16:26:20.000Z",
+                    "volatility": 0.006387683997137562
+                },
+                "6h": {
+                    "volume": {
+                        "total": 1909.1637475319312,
+                        "buys": 1512.7004566011065,
+                        "sells": 396.4632909308249
+                    },
+                    "swaps": {
+                        "total": 32,
+                        "buys": 23,
+                        "sells": 9
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 3499.4006542377642,
+                            "last": 3487.955643347723,
+                            "min": 3470.7973876084693,
+                            "max": 3499.4006542377642,
+                            "diff": -0.32705631680618097
+                        },
+                        "chain": {
+                            "first": 89.14080684305384,
+                            "last": 91.56661880047577,
+                            "min": 88.96373418673075,
+                            "max": 91.94475814118792,
+                            "diff": 2.721326004702812
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 8807.081802399414,
+                            "last": 9352.930952944916,
+                            "min": 8591.510818957544,
+                            "max": 9352.930952944916,
+                            "diff": 6.197843539920229
+                        }
+                    },
+                    "makers": 19,
+                    "updatedAt": "2025-08-03T16:26:20.000Z",
+                    "volatility": 0.2041246489615965
+                },
+                "24h": {
+                    "volume": {
+                        "total": 6935.033459396848,
+                        "buys": 3351.502931241187,
+                        "sells": 3583.530528155661
+                    },
+                    "swaps": {
+                        "total": 148,
+                        "buys": 65,
+                        "sells": 83
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 3453.0820569506873,
+                            "last": 3479.898263785615,
+                            "min": 3369.5610624427663,
+                            "max": 3499.4006542377642,
+                            "diff": 0.7765875931314679
+                        },
+                        "chain": {
+                            "first": 92.45942262968076,
+                            "last": 91.62208114019154,
+                            "min": 88.96373418673075,
+                            "max": 94.65590938936924,
+                            "diff": -0.9056313198525435
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 11410.392367868506,
+                            "last": 9327.223120567478,
+                            "min": 8294.912925915378,
+                            "max": 11417.027273469248,
+                            "diff": -18.25677137244817
+                        }
+                    },
+                    "makers": 43,
+                    "updatedAt": "2025-08-03T15:58:55.000Z",
+                    "volatility": 0.7435260601951713
+                }
+            },
+            "rugPull": {
+                "liquidityRemoved": true
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 18,
+            "locks": [],
+            "name": "Unit Ethereum",
+            "symbol": "UETH",
+            "totalSupply": "100000000000000000000000000",
+            "metrics": {
+                "circulatingSupply": 541.9292132941251,
+                "maxSupply": 100000000,
+                "totalSupply": 99999999.99964204,
+                "holders": 11456,
+                "mcap": 1890225.0578042355,
+                "fdv": 348795564333.52374
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "unit-ethereum",
+                "description": "",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "ventures": false,
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                }
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "https://twitter.com/hyperunit",
+                "website": "https://hyperunit.xyz/",
+                "youtube": "",
+                "twitterPost": ""
+            },
+            "logo": "3/hyperevm/0xbe6727b535545c67d5caa73dea54865b92cf7907.jpg?1743582414",
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex2602e3",
+                    "pair": "0x719d7f4388cb0efb6a48f3c3266e443edce6588a",
+                    "token": "0xbe6727b535545c67d5caa73dea54865b92cf7907",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:01:11.462Z"
+            },
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0xbaca35c8ebcdc89ac3d4467bbb007e71059125f3",
+                "0x6269e727dfd6e7da641c7b1b1a1286a64687a330",
+                "0x4430c117ee56e26863f9f0ae7c8e9bd36c9b623a",
+                "0x14802c5ddd7daa7f4cb6b3b2280ed9db79c502a2",
+                "0xc7f60e841d309dec25a44147498869e67438342b",
+                "0xa8defb49f8461d71f0dc35e2c0144dc781b4f561",
+                "0xba3fae61e4a4c5427bc24cb3f1a2be91d768e753",
+                "0xae51b9077dc5750af9ef04606ac6ae5e0c9a5681",
+                "0x13a0f9b1c3c8dca1c0c23be3612858ad6bcf2728",
+                "0x554d67ac8ba89b306effdc616360c098a4c912bd",
+                "0x259232456df1520db37231a82e9c7c901ffedb35",
+                "0x76f973eced281812e20be5419d0dda50001ef3f6"
+            ]
+        },
+        "price": 3487.955643347723,
+        "price24h": 3441.416863564924,
+        "volume24h": 7325.726236797696,
+        "swaps24h": 153
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0xb3187035657566f83618fa13db6502d81808e290",
+            "token": "0x1ecd15865d7f8019d546f76d095d9c93cc34edfa",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 5855323,
+            "creationTime": "2025-06-15T16:32:00.000Z",
+            "creationTransaction": "0x307166e5cc76cd21d445c28e7ca8ed468c6f27d952df8424247a6a52b9ca7887",
+            "dextScore": {
+                "information": 81,
+                "holders": 99,
+                "pool": 2,
+                "transactions": 99,
+                "creation": 99,
+                "total": 79
+            },
+            "metrics": {
+                "liquidity": 3317.5236545313264,
+                "txCount": 343783,
+                "initialLiquidity": 4.064429330271831,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:51:24.843Z",
+                "initialReserve": 35.133973058187,
+                "initialReserveRef": 0.04993647201533114,
+                "reserve": 119179.0624921052,
+                "reserveRef": 43.24991592665215
+            },
+            "name": "LiquidLaunch",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "LIQD",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 0.05784186894463288,
+                    "eth": 0.001421315828205054,
+                    "blockNumber": 5855323
+                }
+            },
+            "firstSwapTimestamp": "2025-06-16T06:56:13.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T14:17:37.376Z"
+                },
+                "1h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T15:12:54.623Z"
+                },
+                "24h": {
+                    "volume": {
+                        "total": 2357.4911236458343,
+                        "buys": 1283.1236817224353,
+                        "sells": 1074.367441923399
+                    },
+                    "swaps": {
+                        "total": 50,
+                        "buys": 27,
+                        "sells": 23
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.01375013546011438,
+                            "last": 0.014037607079239518,
+                            "min": 0.013132168467007767,
+                            "max": 0.014082032388905171,
+                            "diff": 2.0906820878893813
+                        },
+                        "chain": {
+                            "first": 0.0003673658248981907,
+                            "last": 0.00036917754784450657,
+                            "min": 0.0003460781031425067,
+                            "max": 0.00036917754784450657,
+                            "diff": 0.49316589174237013
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 4347.75806895721,
+                            "last": 4448.389852193889,
+                            "min": 4165.221749037886,
+                            "max": 4481.454717733828,
+                            "diff": 2.31456722385695
+                        }
+                    },
+                    "makers": 40,
+                    "updatedAt": "2025-08-03T14:12:17.000Z",
+                    "volatility": 0.5299650439772381
+                },
+                "6h": {
+                    "volume": {
+                        "total": 1171.548897393785,
+                        "buys": 1171.548897393785,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 25,
+                        "buys": 25,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.013573011904114547,
+                            "last": 0.014037607079239518,
+                            "min": 0.013573011904114547,
+                            "max": 0.014082032388905171,
+                            "diff": 3.4229335272603247
+                        },
+                        "chain": {
+                            "first": 0.00034724242489036393,
+                            "last": 0.00036917754784450657,
+                            "min": 0.00034724242489036393,
+                            "max": 0.00036917754784450657,
+                            "diff": 6.316947867492945
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 4385.255856049752,
+                            "last": 4448.389852193889,
+                            "min": 4381.484102479634,
+                            "max": 4481.454717733828,
+                            "diff": 1.4396878589658495
+                        }
+                    },
+                    "makers": 21,
+                    "updatedAt": "2025-08-03T14:12:17.000Z",
+                    "volatility": 0.26336470865205125
+                }
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 18,
+            "locks": [],
+            "name": "LiquidLaunch",
+            "symbol": "LIQD",
+            "totalSupply": "1200000000000000000000000000",
+            "metrics": {
+                "circulatingSupply": 1198919050.52243,
+                "maxSupply": 1200000000,
+                "totalSupply": 1200000000,
+                "holders": 5483,
+                "mcap": 16829954.551048785,
+                "fdv": 16845128.495087422
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "liquidlaunch",
+                "description": "LiquidLaunch is the first native fair launch token platform and DEX aggregator built on Hyperliquid’s HyperEVM. It empowers creators to launch ERC-20 tokens on-chain without permission, presale, or reliance on web2 infrastructure, offering a fast and frictionless path to liquidity.\r\n\r\nThe platform goes hand in hand with it’s other product, LiquidSwap, Routing trades through top HyperEVM DEXs like HyperSwap and KittenSwap, ensuring users get the best prices with minimal slippage.\r\n\r\nNew tokens, whether they’ve bonded through LiquidLaunch or not, are immediately tradable through LiquidSwap.\r\n\r\n100% of the revenue generated on LiquidLaunch and LiquidSwap go back to $LIQD token stakers. (https://liqd.ag/staking)\r\n\r\nFair launches on LiquidLaunch mean there are no allocations or private rounds — just transparent, public launches powered entirely on-chain.",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "ventures": false,
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                }
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "https://discord.gg/liquidlaunch",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "https://twitter.com/LiquidLaunchHL",
+                "website": "https://liqd.ag/",
+                "youtube": "",
+                "twitterPost": ""
+            },
+            "logo": "3/hyperevm/0x1ecd15865d7f8019d546f76d095d9c93cc34edfa.png?1737143175",
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex2602e3",
+                    "pair": "0xa3ce2abaea4aad623d0bacd024530621759d8dcd",
+                    "token": "0x1ecd15865d7f8019d546f76d095d9c93cc34edfa",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:19:14.891Z"
+            },
+            "rugPulledAt": [
+                "0xb875f9dd2cd59334066e49a982b4b7a1b1d181dd",
+                "0x48a768ea683a6d203ff05c129e748b69d5e8b678",
+                "0x27a7243953c7d7e32730fa727a9b10f3bb8f548e",
+                "0xa691d83f9909446aa7c65b0dd6fff71368c6fd86",
+                "0xaaf8bcbb5bb6b6e9e4cb9954b49ab88723c86fc2",
+                "0xc64dd384c6c76526b1f721d61077e0e981a3a53f",
+                "0x6d70f2d89b8397d0a9e149e3641f4dc612426059",
+                "0x37e1f7287a1d405901cee908b591b99750e6ed7c",
+                "0xe038f0e3c3e01a10b903ebec1daa37c71c7b4368"
+            ],
+            "logoOnchain": ""
+        },
+        "price": 0.014037607079239518,
+        "price24h": 0.01375013546011438,
+        "volume24h": 2357.4911236458343,
+        "swaps24h": 50
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x4ffa314993ef6ad960e6ec935232fd5abc4159ba",
+            "token": "0x9fdbda0a5e284c32744d2f17ee5c74b284993463",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 5851785,
+            "creationTime": "2025-06-15T15:34:00.000Z",
+            "creationTransaction": "0x2403bc7c79384525f53eca22f62c500676e014883cc40dd08f9b99d1136605aa",
+            "dextScore": {
+                "information": 71,
+                "holders": 99,
+                "pool": 1,
+                "transactions": 99,
+                "creation": 99,
+                "total": 77
+            },
+            "metrics": {
+                "liquidity": 605.1148555887032,
+                "txCount": 1459053,
+                "initialLiquidity": 8.202168572519632,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:46:27.362Z",
+                "initialReserve": 0.00003876,
+                "initialReserveRef": 0.09990688287923244,
+                "reserve": 0.001783660000000002,
+                "reserveRef": 10.58001687165846
+            },
+            "name": "Unit Bitcoin",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "UBTC",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 105807.29972162076,
+                    "eth": 2577.585318074028,
+                    "blockNumber": 5851785
+                }
+            },
+            "firstSwapTimestamp": "2025-06-16T05:53:16.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T16:23:57.397Z"
+                },
+                "1h": {
+                    "volume": {
+                        "total": 3.805989040659115,
+                        "buys": 0,
+                        "sells": 3.805989040659115
+                    },
+                    "swaps": {
+                        "total": 1,
+                        "buys": 0,
+                        "sells": 1
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 114054.21158702772,
+                            "last": 114054.21158702772,
+                            "min": 114054.21158702772,
+                            "max": 114054.21158702772,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 3004.114512643621,
+                            "last": 3004.114512643621,
+                            "min": 3004.114512643621,
+                            "max": 3004.114512643621,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 835.6716506623192,
+                            "last": 835.6716506623192,
+                            "min": 835.6716506623192,
+                            "max": 835.6716506623192,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 1,
+                    "updatedAt": "2025-08-03T16:18:53.000Z",
+                    "volatility": 0.00455440726946121
+                },
+                "6h": {
+                    "volume": {
+                        "total": 62.88001952892561,
+                        "buys": 44.484691629116455,
+                        "sells": 18.395327899809153
+                    },
+                    "swaps": {
+                        "total": 10,
+                        "buys": 7,
+                        "sells": 3
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 114104.05277974384,
+                            "last": 114054.21158702772,
+                            "min": 113396.06788526983,
+                            "max": 114592.94326146635,
+                            "diff": -0.0436804754098703
+                        },
+                        "chain": {
+                            "first": 2919.1581247376134,
+                            "last": 3004.114512643621,
+                            "min": 2919.1581247376134,
+                            "max": 3013.277317489795,
+                            "diff": 2.910304419142888
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 850.2157358896711,
+                            "last": 835.6716506623192,
+                            "min": 829.3778008373661,
+                            "max": 850.2157358896711,
+                            "diff": -1.7106346793420535
+                        }
+                    },
+                    "makers": 4,
+                    "updatedAt": "2025-08-03T16:18:53.000Z",
+                    "volatility": 0.0752448877248492
+                },
+                "24h": {
+                    "volume": {
+                        "total": 246.12337179238165,
+                        "buys": 121.11244030415874,
+                        "sells": 125.01093148822291
+                    },
+                    "swaps": {
+                        "total": 45,
+                        "buys": 21,
+                        "sells": 24
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 112239.76884368906,
+                            "last": 114054.21158702772,
+                            "min": 111711.07094912473,
+                            "max": 114592.94326146635,
+                            "diff": 1.616577405701491
+                        },
+                        "chain": {
+                            "first": 3019.877010350285,
+                            "last": 3004.114512643621,
+                            "min": 2919.1581247376134,
+                            "max": 3135.702548014936,
+                            "diff": -0.5219582669307457
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 819.1221354281502,
+                            "last": 835.6716506623192,
+                            "min": 797.574240611373,
+                            "max": 850.2157358896711,
+                            "diff": 2.02039653409179
+                        }
+                    },
+                    "makers": 14,
+                    "updatedAt": "2025-08-03T16:18:53.000Z",
+                    "volatility": 0.2945216241299012
+                }
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 8,
+            "locks": [],
+            "name": "Unit Bitcoin",
+            "symbol": "UBTC",
+            "totalSupply": "2100000000000000",
+            "metrics": {
+                "circulatingSupply": 3218.70993401,
+                "maxSupply": 21000000,
+                "totalSupply": 20999999.99999847,
+                "holders": 9901,
+                "mcap": 367107423.85084456,
+                "fdv": 2395138443327.4077
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "unit-bitcoin",
+                "description": "",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "ventures": false,
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                }
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "https://twitter.com/hyperunit",
+                "website": "https://hyperunit.xyz/",
+                "youtube": "",
+                "twitterPost": ""
+            },
+            "logo": "3/hyperevm/0x9fdbda0a5e284c32744d2f17ee5c74b284993463.jpg?1743580113",
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex2602e3",
+                    "pair": "0x3a36b04bcc1d5e2e303981ef643d2668e00b43e7",
+                    "token": "0x9fdbda0a5e284c32744d2f17ee5c74b284993463",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T15:43:10.564Z"
+            },
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0xdadcb98acee1b1aa2791952e73b25962d34b6f0d",
+                "0xab9329d0691f926d197e6cd287a09312ff68b265",
+                "0x08502a683aab6d21df800825b74216e915f4f60d",
+                "0xb2432ac4bb415716c106dca066a13c1a0ab3cc23",
+                "0x1fe49f28c9bfa52bae256b7dbf1e7fd62d219937",
+                "0xd064727dba404833f253ba04e6edbb4f6f7359f4",
+                "0xe4455be3d688e3409788119aee7207b0d910d3b3",
+                "0x0185c526294223116e7586b64c36f4a8e58ccd66",
+                "0x5ca435d60488fa7d4355eb86341597748e61e0cc",
+                "0xa9c28cb9a112e0e04ab99865d5cf4b0f5d788be2"
+            ]
+        },
+        "price": 114054.21158702772,
+        "price24h": 112454.10824376061,
+        "volume24h": 246.98310370275615,
+        "swaps24h": 45
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x1f16022eed6b8bc9ccf52b51b8c7b6404f83b834",
+            "token": "0x9b498c3c8a0b8cd8ba1d9851d40d186f1872b44e",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 5854225,
+            "creationTime": "2025-06-15T16:14:00.000Z",
+            "creationTransaction": "0x4f25957aa81d19b99f5d2b4e5edfec9a26dab53330a7770273d88b2228e52c66",
+            "dextScore": {
+                "information": 81,
+                "holders": 99,
+                "pool": 3,
+                "transactions": 99,
+                "creation": 99,
+                "total": 79
+            },
+            "metrics": {
+                "liquidity": 4854.832586817698,
+                "txCount": 1159801,
+                "initialLiquidity": 4.091940730694446,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:49:48.458Z",
+                "initialReserve": 8.277823914329659,
+                "initialReserveRef": 0.04998339641236222,
+                "reserve": 28779.383990176008,
+                "reserveRef": 12.14454320119634
+            },
+            "name": "Purr",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "PURR",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 0.24716282763703928,
+                    "eth": 0.006038228999512356,
+                    "blockNumber": 5854225
+                }
+            },
+            "firstSwapTimestamp": "2025-06-16T06:27:42.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T14:45:57.312Z"
+                },
+                "1h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T15:42:06.165Z"
+                },
+                "6h": {
+                    "volume": {
+                        "total": 237.90029458574298,
+                        "buys": 161.24459594111937,
+                        "sells": 76.65569864462361
+                    },
+                    "swaps": {
+                        "total": 14,
+                        "buys": 9,
+                        "sells": 5
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.1552016312237336,
+                            "last": 0.15275243719830658,
+                            "min": 0.15275243719830658,
+                            "max": 0.1552016312237336,
+                            "diff": -1.5780723476393952
+                        },
+                        "chain": {
+                            "first": 0.004024938569080228,
+                            "last": 0.004044172439128076,
+                            "min": 0.004024938569080228,
+                            "max": 0.004059466720719976,
+                            "diff": 0.4778674187875553
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 5337.673925611311,
+                            "last": 5251.040390945251,
+                            "min": 5251.040390945251,
+                            "max": 5337.673925611311,
+                            "diff": -1.6230578314342783
+                        }
+                    },
+                    "makers": 13,
+                    "updatedAt": "2025-08-03T14:40:48.000Z",
+                    "volatility": 0.045305363675353115
+                },
+                "24h": {
+                    "volume": {
+                        "total": 640.7731232398256,
+                        "buys": 254.01537146160706,
+                        "sells": 386.75775177821856
+                    },
+                    "swaps": {
+                        "total": 40,
+                        "buys": 14,
+                        "sells": 26
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.15112903122460522,
+                            "last": 0.15275243719830658,
+                            "min": 0.14404810098229562,
+                            "max": 0.1552016312237336,
+                            "diff": 1.0741853901575584
+                        },
+                        "chain": {
+                            "first": 0.004075206450710671,
+                            "last": 0.004044172439128076,
+                            "min": 0.004022386179919816,
+                            "max": 0.004075206450710671,
+                            "diff": -0.7615322550636022
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 5188.221165294025,
+                            "last": 5251.040390945251,
+                            "min": 4952.833532234779,
+                            "max": 5337.673925611311,
+                            "diff": 1.2108046987558523
+                        }
+                    },
+                    "makers": 25,
+                    "updatedAt": "2025-08-03T14:40:48.000Z",
+                    "volatility": 0.12202784125308903
+                }
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 18,
+            "locks": [],
+            "name": "Purr",
+            "symbol": "PURR",
+            "totalSupply": "600000000000000000000000000",
+            "metrics": {
+                "circulatingSupply": 596459685.41937,
+                "maxSupply": 600000000,
+                "totalSupply": 600000000,
+                "holders": 4858,
+                "mcap": 91110670.63834402,
+                "fdv": 91651462.31898396
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "purr-2",
+                "description": "$PURR is the first spot launch on the Hyperliquid L1. There is no sale and no planned utility for $PURR. The max supply of $PURR was 1 billion. 500 million $PURR were distributed proportionally to points holders. 400 million $PURR initially deployed as Hyperliquidity (HIP-2) were burned. $PURR is deflationary, as trading fees paid in $PURR are burned.",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "ventures": false,
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                }
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "https://twitter.com/Hyperintern",
+                "website": "https://app.hyperliquid.xyz/trade/PURR/USDC",
+                "youtube": "",
+                "twitterPost": ""
+            },
+            "logo": "3/hyperevm/0x9b498c3c8a0b8cd8ba1d9851d40d186f1872b44e.png?1713368828",
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex47b072",
+                    "pair": "0x466f0cd324dcc4ad31053a0bc2013eae7e474420",
+                    "token": "0x9b498c3c8a0b8cd8ba1d9851d40d186f1872b44e",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:26:12.053Z"
+            },
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0xd6f36dbcc4c429ab67a8132f7ed19981c1f5406f",
+                "0xd28a55e5bfac34067482f1c9600485504febc8a5",
+                "0xe1f0ec490d33c17599ea85c0b16b2cce203d4009",
+                "0x60bcf9b724e842c205c15fbf0fd411ab37eedafd",
+                "0xb905a0404db5b54fc2a947cb3a6ba235f7370ca5"
+            ]
+        },
+        "price": 0.15275243719830658,
+        "price24h": 0.15112903122460522,
+        "volume24h": 640.7731232398256,
+        "swaps24h": 40
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x5497bf33364c467b4fdffaee45f21580d0761780",
+            "token": "0x068f321fa8fb9f0d135f290ef6a3e2813e1c8a29",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 5855811,
+            "creationTime": "2025-06-15T16:40:00.000Z",
+            "creationTransaction": "0x335e82892e20ad4f3ba9945be75e914cf400fe59093d8cf98f2e3d9e62bb7512",
+            "dextScore": {
+                "information": 21,
+                "holders": 99,
+                "pool": 1,
+                "transactions": 99,
+                "creation": 99,
+                "total": 67
+            },
+            "locks": [],
+            "metrics": {
+                "liquidity": 467.6483757492417,
+                "txCount": 271404,
+                "initialLiquidity": 4.042191193373878,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:52:04.290Z",
+                "initialReserve": 0.013493061,
+                "initialReserveRef": 0.04975984431852013,
+                "reserve": 0.8685187050000003,
+                "reserveRef": 8.732086043420429
+            },
+            "name": "Unit Solana",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "USOL",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "pool": {
+                "openPrice": {
+                    "usd": 149.78777585668257,
+                    "eth": 3.6878099282734467,
+                    "blockNumber": 5855811
+                }
+            },
+            "firstSwapTimestamp": "2025-06-16T11:39:23.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T15:17:34.607Z"
+                },
+                "1h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T16:13:08.395Z"
+                },
+                "6h": {
+                    "volume": {
+                        "total": 1.2866284838597002,
+                        "buys": 1.2866284838597002,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 2,
+                        "buys": 2,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 160.19768178781342,
+                            "last": 160.13177529367977,
+                            "min": 160.13177529367977,
+                            "max": 160.19768178781342,
+                            "diff": -0.041140729003152354
+                        },
+                        "chain": {
+                            "first": 4.209967459997199,
+                            "last": 4.255654706433501,
+                            "min": 4.209967459997199,
+                            "max": 4.255654706433501,
+                            "diff": 1.0852161417022452
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 229.75468641694226,
+                            "last": 228.42180042731184,
+                            "min": 228.42180042731184,
+                            "max": 229.75468641694226,
+                            "diff": -0.5801344078838945
+                        }
+                    },
+                    "makers": 2,
+                    "updatedAt": "2025-08-03T15:12:28.000Z",
+                    "volatility": 0.005632686904020485
+                },
+                "24h": {
+                    "volume": {
+                        "total": 4.359100720573004,
+                        "buys": 1.6376679813804813,
+                        "sells": 2.7214327391925224
+                    },
+                    "swaps": {
+                        "total": 9,
+                        "buys": 3,
+                        "sells": 6
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 155.80323844346609,
+                            "last": 160.13177529367977,
+                            "min": 155.80323844346609,
+                            "max": 162.57081649134534,
+                            "diff": 2.778207239757927
+                        },
+                        "chain": {
+                            "first": 4.358254453088648,
+                            "last": 4.255654706433501,
+                            "min": 4.165041151831234,
+                            "max": 4.358254453088648,
+                            "diff": -2.354147692832295
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 219.59435474463845,
+                            "last": 228.42180042731184,
+                            "min": 219.59435474463845,
+                            "max": 233.50014992652888,
+                            "diff": 4.019887347713757
+                        }
+                    },
+                    "makers": 8,
+                    "updatedAt": "2025-08-03T15:12:28.000Z",
+                    "volatility": 0.01908355819111124
+                }
+            },
+            "rugPull": {
+                "liquidityRemoved": true
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 9,
+            "locks": [],
+            "name": "Unit Solana",
+            "symbol": "USOL",
+            "totalSupply": "500000000000000000",
+            "metrics": {
+                "circulatingSupply": null,
+                "maxSupply": 500000000,
+                "totalSupply": 500000000,
+                "holders": 2824,
+                "mcap": null,
+                "fdv": 80065887646.83989
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "unit-solana",
+                "description": "",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                },
+                "ventures": false
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "",
+                "twitterPost": "",
+                "website": "",
+                "youtube": ""
+            },
+            "logo": "3/hyperevm/0x068f321fa8fb9f0d135f290ef6a3e2813e1c8a29.jpg?1751940039",
+            "logoOnchain": "",
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex2602e3",
+                    "pair": "0x6c06e0cfe45c72f181bb202674c0f65fa354a104",
+                    "token": "0x068f321fa8fb9f0d135f290ef6a3e2813e1c8a29",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:26:12.038Z"
+            },
+            "rugPulledAt": [
+                "0x716f48253dcaac7bf458c68f4616f56e51358b47",
+                "0x2899aacbba0ed03b4b0e4d593ca56077ff14bcb1",
+                "0xd5eae36c14fbb422f0a1b4e5ea92c575800e4f80",
+                "0x374755e7932bd467591987a0c432e1de49565299",
+                "0x78356c061bda8fce7959d04bcd59072b6f7b76a5",
+                "0x5497bf33364c467b4fdffaee45f21580d0761780",
+                "0xb3d448bdc50a99c776fb4882c0f31f3b1a2f00ca",
+                "0x357e31e1960ecc66e93550a71c8d3a207d92b424",
+                "0x0a01eb207891a4313a80009e5abf9aa0d19f13ea"
+            ]
+        },
+        "price": 160.13177529367977,
+        "price24h": 155.80323844346609,
+        "volume24h": 4.359100720573004,
+        "swaps24h": 9
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x4036f3dd7a41c1e236df2939cb656a5cee58f61b",
+            "token": "0x3b4575e689ded21caad31d64c4df1f10f3b2cedf",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 5871915,
+            "creationTime": "2025-06-15T21:04:00.000Z",
+            "creationTransaction": "0x8cb8de7e3c5ad824835ed68a14708f3b515c00457580b1b420eba7cfc43ac55d",
+            "dextScore": {
+                "information": 21,
+                "holders": 99,
+                "pool": 1,
+                "transactions": 99,
+                "creation": 99,
+                "total": 67
+            },
+            "metrics": {
+                "liquidity": 624.8695391201717,
+                "txCount": 480411,
+                "initialLiquidity": 3.9772726583871956,
+                "initialLiquidityUpdatedAt": "2025-06-16T15:21:58.437Z",
+                "initialReserve": 1.7263249999999999,
+                "initialReserveRef": 0.04936418838741291,
+                "reserve": 274.6169530000002,
+                "reserveRef": 9.72274105752107
+            },
+            "name": "Unit Fartcoin",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "UFART",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 1.1519478251199902,
+                    "eth": 0.028594956562492002,
+                    "blockNumber": 5871915
+                }
+            },
+            "firstSwapTimestamp": "2025-06-21T17:34:18.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T13:54:29.571Z"
+                },
+                "24h": {
+                    "volume": {
+                        "total": 6.909380982581927,
+                        "buys": 3.0943969876587953,
+                        "sells": 3.8149839949231317
+                    },
+                    "swaps": {
+                        "total": 7,
+                        "buys": 3,
+                        "sells": 4
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.9098619437216791,
+                            "last": 0.9281304308888196,
+                            "min": 0.9077949535609986,
+                            "max": 0.9417553862958523,
+                            "diff": 2.007830670707642
+                        },
+                        "chain": {
+                            "first": 0.024873207865546174,
+                            "last": 0.024389825797257045,
+                            "min": 0.024154386783345364,
+                            "max": 0.024873207865546174,
+                            "diff": -1.9433845079496124
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 381.3645725980103,
+                            "last": 392.8694396859702,
+                            "min": 381.3645725980103,
+                            "max": 400.57202207851276,
+                            "diff": 3.0167634632614324
+                        }
+                    },
+                    "makers": 2,
+                    "updatedAt": "2025-08-03T13:49:19.000Z",
+                    "volatility": 0.01758696473847586
+                },
+                "1h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T14:49:35.932Z"
+                },
+                "6h": {
+                    "volume": {
+                        "total": 2.900840031022396,
+                        "buys": 0.9538238656071147,
+                        "sells": 1.947016165415281
+                    },
+                    "swaps": {
+                        "total": 3,
+                        "buys": 1,
+                        "sells": 2
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.9390987137984905,
+                            "last": 0.9281304308888196,
+                            "min": 0.9281304308888196,
+                            "max": 0.9417553862958523,
+                            "diff": -1.1679584636322307
+                        },
+                        "chain": {
+                            "first": 0.024392174384376377,
+                            "last": 0.024389825797257045,
+                            "min": 0.024154386783345364,
+                            "max": 0.024392174384376377,
+                            "diff": -0.00962844510014601
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 397.48872155534264,
+                            "last": 392.8694396859702,
+                            "min": 392.8694396859702,
+                            "max": 400.57202207851276,
+                            "diff": -1.1621164623986222
+                        }
+                    },
+                    "makers": 1,
+                    "updatedAt": "2025-08-03T13:49:19.000Z",
+                    "volatility": 0.0073837253244770215
+                }
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 6,
+            "locks": [],
+            "name": "Unit Fartcoin",
+            "symbol": "UFART",
+            "totalSupply": "1000000000000000",
+            "metrics": {
+                "circulatingSupply": 89109625.5,
+                "maxSupply": 1000000000,
+                "totalSupply": 1000000000,
+                "holders": 1506,
+                "mcap": 82705355.11165635,
+                "fdv": 928130430.8888197
+            },
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex346e5e",
+                    "pair": "0x54363f140fd753ffcd64886ae2086e208eec2249",
+                    "token": "0x3b4575e689ded21caad31d64c4df1f10f3b2cedf",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:19:14.875Z"
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "unit-fartcoin",
+                "description": "",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                },
+                "ventures": false
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "",
+                "twitterPost": "",
+                "website": "",
+                "youtube": ""
+            },
+            "logo": "3/hyperevm/0x3b4575e689ded21caad31d64c4df1f10f3b2cedf.jpg?1751939859",
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0x61be33cfabf590b791fd4518a3a832d2f5d3e843",
+                "0x84b9e91574e4c35f163a6270888bd4186d6067b2"
+            ]
+        },
+        "price": 0.9281304308888196,
+        "price24h": 0.9098619437216791,
+        "volume24h": 6.909380982581927,
+        "swaps24h": 7
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0xe057f200c9e13f6c46f3525faf486796a925e48d",
+            "token": "0xca79db4b49f608ef54a5cb813fbed3a6387bc645",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 5855140,
+            "creationTime": "2025-06-15T16:29:00.000Z",
+            "creationTransaction": "0xd1bad8901a081bb4ef8de28fbc29d47e68708efe848e1e0820326d5e602a9b91",
+            "dextScore": {
+                "information": 71,
+                "holders": 99,
+                "pool": 1,
+                "transactions": 99,
+                "creation": 99,
+                "total": 77
+            },
+            "metrics": {
+                "liquidity": 7.050058041230157,
+                "txCount": 1649429,
+                "initialLiquidity": 4.0694,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:51:08.889Z",
+                "initialReserve": 2.0368049392088046,
+                "initialReserveRef": 0.05,
+                "reserve": 2.9963537469520043,
+                "reserveRef": 0.10567765840652915
+            },
+            "name": "Last USD",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "USDXL",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 0.9989665484562197,
+                    "eth": 0.024548251547063932,
+                    "blockNumber": 5855140
+                }
+            },
+            "firstSwapTimestamp": "2025-06-16T04:46:32.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T08:24:46.730Z"
+                },
+                "1h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T09:20:36.710Z"
+                },
+                "6h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T14:20:46.869Z"
+                },
+                "24h": {
+                    "volume": {
+                        "total": 0.8423298206568588,
+                        "buys": 0.33897947225993247,
+                        "sells": 0.5033503483969264
+                    },
+                    "swaps": {
+                        "total": 6,
+                        "buys": 2,
+                        "sells": 4
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.9901497212785724,
+                            "last": 0.9969013543587375,
+                            "min": 0.9901497212785724,
+                            "max": 1.0042766014925857,
+                            "diff": 0.6818800162309597
+                        },
+                        "chain": {
+                            "first": 0.02709176210130711,
+                            "last": 0.025929236464710834,
+                            "min": 0.025929236464710834,
+                            "max": 0.027761136428626716,
+                            "diff": -4.291066901625375
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 6.815687441105624,
+                            "last": 7.048546124230411,
+                            "min": 6.737999704703078,
+                            "max": 7.048546124230411,
+                            "diff": 3.416510588798559
+                        }
+                    },
+                    "makers": 5,
+                    "updatedAt": "2025-08-03T08:19:30.000Z",
+                    "volatility": 0.11950405173078552
+                }
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 18,
+            "locks": [],
+            "name": "Last USD",
+            "symbol": "USDXL",
+            "totalSupply": "2797604422482010007130466",
+            "metrics": {
+                "circulatingSupply": 2797604.42248201,
+                "maxSupply": 2797604.42248201,
+                "totalSupply": 2797604.42248201,
+                "holders": 6413,
+                "mcap": 2788935.6377323093,
+                "fdv": 2788935.6377323093
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "last-usd",
+                "description": "",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "ventures": false,
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                }
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "https://twitter.com/lastdotnet",
+                "website": "https://www.last.net/",
+                "youtube": "",
+                "twitterPost": ""
+            },
+            "logo": "3/hyperevm/0xca79db4b49f608ef54a5cb813fbed3a6387bc645.jpg?1743648438",
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex2602e3",
+                    "pair": "0xc62f47203f2c1038a528293c6662d1db0599ce94",
+                    "token": "0xca79db4b49f608ef54a5cb813fbed3a6387bc645",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:26:12.056Z"
+            },
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0xa2529db1e8547b6823f2a58242d98863d7b9cd01",
+                "0x9cfda597925bea081b1353306e58d8ff8f5bb3dd",
+                "0x5a7bc41413d13fb5706957ce621cd8375f17cad3",
+                "0x5ad00c0fb20046448d924f7a674c9f25cae8bbcb",
+                "0xc450e12aba52a1155052249be0ed772e229cede2",
+                "0xc62f47203f2c1038a528293c6662d1db0599ce94",
+                "0x026bbbd52450c848a2c255ee6c341b03ab9a2b7c",
+                "0xb7bf8062d4ed141a738a91dfb0aadc134bb55c27",
+                "0x1c8f4daf32c68672a66bdbc1f7074716125b3f2d",
+                "0xd64c68f7a93455b2064c0b4ae7bf65db3bd9ce57",
+                "0xbadb20a27f2493dac16d3d4392ccab511756f8ec",
+                "0x9f24b7a8787cdc976903b43052e45263077b37c5",
+                "0x24d8414e74522087af6489ba7a7f54c92e9b0309",
+                "0xb814a0d1b15ccebdebbf4a6b74bd8ec7ea866262",
+                "0x2bcc1314e43a6eabc56fe71c7d2c89400b57db99"
+            ]
+        },
+        "price": 0.9969013543587375,
+        "price24h": 0.9901497212785724,
+        "volume24h": 0.8423298206568588,
+        "swaps24h": 6
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x4ed170dc447026dee54e77a24f75f646be19de99",
+            "token": "0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 5871610,
+            "creationTime": "2025-06-15T20:59:00.000Z",
+            "creationTransaction": "0x6e6a71e2927cf64dfd0edbaaf808169e8b8cfc04922ab7732add2c4656e73e54",
+            "dextScore": {
+                "information": 71,
+                "holders": 99,
+                "pool": 1,
+                "transactions": 99,
+                "creation": 99,
+                "total": 77
+            },
+            "metrics": {
+                "liquidity": 6.64638700801958,
+                "txCount": 3046615,
+                "initialLiquidity": 3.921150440463873,
+                "initialLiquidityUpdatedAt": "2025-06-16T15:21:30.892Z",
+                "initialReserve": 1.9622798782638564,
+                "initialReserveRef": 0.04861573150743743,
+                "reserve": 2.601270056933813,
+                "reserveRef": 0.10482103336250773
+            },
+            "name": "feUSD",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "feUSD",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 0.9991312870040596,
+                    "eth": 0.02477512614074736,
+                    "blockNumber": 5871610
+                }
+            },
+            "firstSwapTimestamp": "2025-06-16T05:52:45.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T09:28:51.807Z"
+                },
+                "1h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T10:24:10.414Z"
+                },
+                "6h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T15:24:21.813Z"
+                },
+                "24h": {
+                    "volume": {
+                        "total": 0.8044933184667366,
+                        "buys": 0.38381403348911536,
+                        "sells": 0.4206792849776212
+                    },
+                    "swaps": {
+                        "total": 6,
+                        "buys": 2,
+                        "sells": 4
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.9978049944425996,
+                            "last": 1.00365481723202,
+                            "min": 0.9934653479151734,
+                            "max": 1.0187579519396184,
+                            "diff": 0.5862691429689971
+                        },
+                        "chain": {
+                            "first": 0.026836421678884368,
+                            "last": 0.02606895629174078,
+                            "min": 0.02606895629174078,
+                            "max": 0.027757406831750257,
+                            "diff": -2.8597903115654546
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 6.4857339450495415,
+                            "last": 6.645886398960927,
+                            "min": 6.317231693430772,
+                            "max": 6.645886398960927,
+                            "diff": 2.469303478500344
+                        }
+                    },
+                    "makers": 6,
+                    "updatedAt": "2025-08-03T09:23:44.000Z",
+                    "volatility": 0.12105131959410526
+                }
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 18,
+            "locks": [],
+            "name": "feUSD",
+            "symbol": "feUSD",
+            "totalSupply": "72464503896566945481194668",
+            "metrics": {
+                "circulatingSupply": 72464502.89656694,
+                "maxSupply": 72464503.89656694,
+                "totalSupply": 72464502.89656694,
+                "holders": 12586,
+                "mcap": 72729347.41046308,
+                "fdv": 72729347.41046308
+            },
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex2602e3",
+                    "pair": "0xc53f8ea77fad9a896440675d4e21abe50f40321f",
+                    "token": "0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:26:12.055Z"
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "felix-feusd",
+                "description": "",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "ventures": false,
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                }
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "https://twitter.com/felixprotocol",
+                "website": "https://usefelix.xyz/",
+                "youtube": "",
+                "twitterPost": ""
+            },
+            "logo": "3/hyperevm/0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70.jpg?1743581333",
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0x0f98e3f49b116f0f737ea8078f8faf05139a1b98",
+                "0xbb22016ddb240f82eae1bbb254ea12e0e46ca673",
+                "0xcf2dc7a53a81ba3280938666d57f244aafee6abc",
+                "0x966ce2658690a3f08ac6458c6f06db163f83b906",
+                "0xc53f8ea77fad9a896440675d4e21abe50f40321f",
+                "0x56836991cd6c35757346d68c4580d95587259fa8",
+                "0x1d5cb0af0e85b02de4efd6dd7c886c96b3097124",
+                "0xea6d13d4bc4edfd35a7a6b01301b89a709a5b999",
+                "0xd3560bb623bc17b36cae548b67abe396a2949550",
+                "0xb6bad92f82d0e4bfe288fe2745f94f52ec21ceb5",
+                "0xfcc08e2234fa58d4a06df4f635c924799cece2cc",
+                "0x21ccc82fdc0e92eaee48b992c2e709f18103fd59",
+                "0x72ceb2b9e232c065154acace04701080b41e0cfd",
+                "0xa03c1106772c85c32c82a1c877a13d8baeda5ec1"
+            ]
+        },
+        "price": 1.00365481723202,
+        "price24h": 0.9978049944425996,
+        "volume24h": 0.8044933184667366,
+        "swaps24h": 6
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x8b1bf7e64fd93e370c2c2aaad87f54173da8c331",
+            "token": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 5855994,
+            "creationTime": "2025-06-15T16:43:00.000Z",
+            "creationTransaction": "0xbe844287ceb0235e857f6114bcac81726b2e5ef8d4e983fddd7d982784652de6",
+            "dextScore": {
+                "information": 21,
+                "holders": 99,
+                "pool": 1,
+                "transactions": 99,
+                "creation": 99,
+                "total": 67
+            },
+            "metrics": {
+                "liquidity": 101.0740055238611,
+                "txCount": 1494348,
+                "initialLiquidity": 4.063000000000001,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:52:20.493Z",
+                "initialReserve": 2.0374160417967526,
+                "initialReserveRef": 0.05,
+                "reserve": 96.98224540675669,
+                "reserveRef": 0.0860994024044805
+            },
+            "name": "USDeOFT",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "USDe",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 0.9970963015528556,
+                    "eth": 0.02454088854424946,
+                    "blockNumber": 5855994
+                }
+            },
+            "firstSwapTimestamp": "2025-06-16T06:17:07.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T10:25:47.754Z"
+                },
+                "1h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T11:20:39.806Z"
+                },
+                "6h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T16:21:30.412Z"
+                },
+                "24h": {
+                    "volume": {
+                        "total": 0.5654853079825846,
+                        "buys": 0.2606765900282306,
+                        "sells": 0.30480871795435394
+                    },
+                    "swaps": {
+                        "total": 5,
+                        "buys": 2,
+                        "sells": 3
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 1.001530030676955,
+                            "last": 1.0076746155742107,
+                            "min": 0.9957258264516264,
+                            "max": 1.0095881281525612,
+                            "diff": 0.6135197856326299
+                        },
+                        "chain": {
+                            "first": 0.026760989463646093,
+                            "last": 0.02591822360591092,
+                            "min": 0.02591822360591092,
+                            "max": 0.02782056456795358,
+                            "diff": -3.149232799781348
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 5.813177484575457,
+                            "last": 5.93539408930571,
+                            "min": 5.675732063507468,
+                            "max": 5.93539408930571,
+                            "diff": 2.1024062150956144
+                        }
+                    },
+                    "makers": 5,
+                    "updatedAt": "2025-08-03T10:20:31.000Z",
+                    "volatility": 0.09527342236658998
+                }
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 18,
+            "locks": [],
+            "name": "USDeOFT",
+            "symbol": "USDe",
+            "totalSupply": "13773362750748000000000000",
+            "metrics": {
+                "circulatingSupply": 13508636.563146,
+                "maxSupply": 13773362.750748,
+                "totalSupply": 13773362.750748,
+                "holders": 10612,
+                "mcap": 13612310.155699873,
+                "fdv": 13879068.015024142
+            },
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex2602e3",
+                    "pair": "0x1c501aff24ddef9abb58d4653f7bd41dbef68496",
+                    "token": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:26:12.051Z"
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "hyperevm-bridged-usde-hyperevm",
+                "description": "",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "ventures": false,
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                }
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "",
+                "website": "",
+                "youtube": "",
+                "twitterPost": ""
+            },
+            "logo": "3/hyperevm/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.jpg?1748491903",
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0xc49c25c1c878a25aed257ad42edab6e2d37a54e9",
+                "0xdbe8f6198d0ff239e346de4ae4d9fc8925ad7847",
+                "0x22a2162fc5c9caa47ba1f00382e47ab563851a39",
+                "0x589395b457f2a8f7cf60ac08ac1b32dbd822c394",
+                "0x8e0ca0aac1e7ebdf5682f5fbe5a3311d08f59984",
+                "0x08d432f95212003b8c163bf18256a9464e585a77",
+                "0x6219c2d948801879fa5ff7bb3fcddf6b9de577ac",
+                "0x4c47fa9e0d0f888629a69c7f50cb985552df5b02",
+                "0x546c3c51bcac838bcff9b08f906ce39b7e8789c4",
+                "0x876910ea3ef50533080a2911e2ce7dfae95cb37b",
+                "0x03f8cf0d7b924a6a5f2579b8224c06e2530c980f",
+                "0x59eef7bf3a82fd7cc917c11f806b7d1e58e3217d",
+                "0xb99856e8bbf67544a3207bede15b94eb6c011eb2",
+                "0xb3a5930deba428f31d778f132b850673dd68c351",
+                "0x712898ffbc8840a8edae33e70c6f837759914fce",
+                "0xba79f5a728ac89f05ba91e0538194c460dfc0337",
+                "0x90203e5d298d6ccfc83912de11bda01510d44b7d"
+            ]
+        },
+        "price": 1.0076746155742107,
+        "price24h": 1.001530030676955,
+        "volume24h": 0.5654853079825846,
+        "swaps24h": 5
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x594fcf3c28f3d627e68ccee3fbe2d6a8fa06aa67",
+            "token": "0x47bb061c0204af921f43dc73c7d7768d2672ddee",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 5856482,
+            "creationTime": "2025-06-15T16:51:00.000Z",
+            "creationTransaction": "0x1b0b771806473332a714ded2c90d6d18965cf0e2db27090b697006b4fab40efb",
+            "dextScore": {
+                "information": 99,
+                "holders": 99,
+                "pool": 1,
+                "transactions": 99,
+                "creation": 99,
+                "total": 82
+            },
+            "metrics": {
+                "liquidity": 1541.3507999436204,
+                "txCount": 926116,
+                "initialLiquidity": 4.046405091254287,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:53:00.288Z",
+                "initialReserve": 110.758539,
+                "initialReserveRef": 0.04976393510493645,
+                "reserve": 153628.15855700008,
+                "reserveRef": 0.26600160934457684
+            },
+            "name": "alright buddy",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "BUDDY",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 0.018266786144840633,
+                    "eth": 0.0004493011153296102,
+                    "blockNumber": 5856482
+                }
+            },
+            "firstSwapTimestamp": "2025-06-16T06:20:51.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T14:57:58.719Z"
+                },
+                "1h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T15:53:37.569Z"
+                },
+                "6h": {
+                    "volume": {
+                        "total": 0.08598390675930806,
+                        "buys": 0.08598390675930806,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 1,
+                        "buys": 1,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.009967413990829893,
+                            "last": 0.009967413990829893,
+                            "min": 0.009967413990829893,
+                            "max": 0.009967413990829893,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0.00026315215013939577,
+                            "last": 0.00026315215013939577,
+                            "min": 0.00026315215013939577,
+                            "max": 0.00026315215013939577,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 21.046348637542522,
+                            "last": 21.046348637542522,
+                            "min": 21.046348637542522,
+                            "max": 21.046348637542522,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 1,
+                    "updatedAt": "2025-08-03T14:52:49.000Z",
+                    "volatility": 0.004085454833050222
+                },
+                "24h": {
+                    "volume": {
+                        "total": 0.13412606993716664,
+                        "buys": 0.13412606993716664,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 3,
+                        "buys": 3,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.008167174850412143,
+                            "last": 0.009967413990829893,
+                            "min": 0.008167174850412143,
+                            "max": 0.009967413990829893,
+                            "diff": 22.042372955036033
+                        },
+                        "chain": {
+                            "first": 0.00021862501941837255,
+                            "last": 0.00026315215013939577,
+                            "min": 0.00021862501941837255,
+                            "max": 0.00026315215013939577,
+                            "diff": 20.366896176605344
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 19.05666793697548,
+                            "last": 21.046348637542522,
+                            "min": 19.05666793697548,
+                            "max": 21.046348637542522,
+                            "diff": 10.440863571466673
+                        }
+                    },
+                    "makers": 3,
+                    "updatedAt": "2025-08-03T14:52:49.000Z",
+                    "volatility": 0.006372890245575058
+                }
+            },
+            "rugPull": {
+                "liquidityRemoved": true
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 6,
+            "locks": [],
+            "name": "alright buddy",
+            "symbol": "BUDDY",
+            "totalSupply": "1000000000000000",
+            "metrics": {
+                "circulatingSupply": 989637501.059817,
+                "maxSupply": 1000000000,
+                "totalSupply": 989637501.059817,
+                "holders": 8185,
+                "mcap": 9864126.673913553,
+                "fdv": 9864126.673913553
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "alright-buddy",
+                "description": "alright buddy is a community owned memecoin spawned from the lore of ratios and KOL crashouts.\r\n\r\nwhat started with a very organic interaction lit a fire and birthed the started of a memecoin.\r\n\r\nalright buddy is easy and quick for everyone to understand and apply.\r\n\r\nsomeone says something you dont agree with? alright buddy.\r\nsomeone has a bad take? alright buddy.\r\nsomeone insults you for clout.. alright buddy.\r\n\r\nyou get the idea",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "ventures": false,
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                }
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "https://discord.gg/yr8bHxZqJG",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "",
+                "slack": "",
+                "telegram": "https://t.me/+H0HmOUjIJI83YzE0",
+                "tiktok": "",
+                "twitter": "https://twitter.com/alrightbuddyHL",
+                "website": "https://alrightbuddy.meme",
+                "youtube": "",
+                "twitterPost": ""
+            },
+            "logo": "3/hyperevm/0x47bb061c0204af921f43dc73c7d7768d2672ddee.png?1740895394",
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dexea1c48",
+                    "pair": "0x056f0975f104cb5318ecc55f0c82b33a756d29c6",
+                    "token": "0x47bb061c0204af921f43dc73c7d7768d2672ddee",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:02:10.992Z"
+            },
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0xdea72af8c170e21b5da9aed3f032d54c91e6a3e5",
+                "0x594fcf3c28f3d627e68ccee3fbe2d6a8fa06aa67",
+                "0xab8c7b8f2e774fea3621f51f0778c92b5185c026",
+                "0xf6a75c8aea8a4de8118cdaea48f96e547fcd6cf9",
+                "0x22fafe64577d6c699af6cbf9c0bb088030f54391",
+                "0xccd76911bb6afdd4b8622e8ec9095490038c3646"
+            ]
+        },
+        "price": 0.009967413990829893,
+        "price24h": 0.008167174850412143,
+        "volume24h": 0.13412606993716664,
+        "swaps24h": 3
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x5567b66c439a926c7584aa27b97d270036d4e3dd",
+            "token": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+            "tokenRef": "0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70"
+        },
+        "pair": {
+            "creationBlock": 5852883,
+            "creationTime": "2025-06-15T15:52:00.000Z",
+            "creationTransaction": "0x68b3736e8f4114659fa5590832f7118ad4ee56b9837b376565897ea2c3aca88e",
+            "dextScore": {
+                "information": 81,
+                "holders": 99,
+                "pool": 1,
+                "transactions": 99,
+                "creation": 99,
+                "total": 79
+            },
+            "metrics": {
+                "liquidity": 3.656374640518937,
+                "txCount": 5326454,
+                "initialLiquidity": 0.9972370828170174,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:48:01.254Z",
+                "initialReserve": 0.499455,
+                "initialReserveRef": 0.49950362489613964,
+                "reserve": 0.5744680000000002,
+                "reserveRef": 3.0926360937886574
+            },
+            "name": "USD₮0",
+            "nameRef": "feUSD",
+            "symbol": "USD₮0",
+            "symbolRef": "feUSD",
+            "type": "token-token-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 0.9983255836156302,
+                    "eth": 0.024487369903986613,
+                    "blockNumber": 5852883
+                }
+            },
+            "firstSwapTimestamp": "2025-07-03T12:59:04.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T05:52:35.116Z"
+                },
+                "1h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T06:48:28.972Z"
+                },
+                "6h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T11:48:12.600Z"
+                },
+                "24h": {
+                    "volume": {
+                        "total": 3.927500512084109,
+                        "buys": 1.9230448197637844,
+                        "sells": 2.0044556923203247
+                    },
+                    "swaps": {
+                        "total": 2,
+                        "buys": 1,
+                        "sells": 1
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 1.0011276069201571,
+                            "last": 0.9975576849128412,
+                            "min": 0.9975576849128412,
+                            "max": 1.0011276069201571,
+                            "diff": -0.35659010725898255
+                        },
+                        "chain": {
+                            "first": 0.027163956231723164,
+                            "last": 0.026419770245056443,
+                            "min": 0.026419770245056443,
+                            "max": 0.027163956231723164,
+                            "diff": -2.7396082526360113
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 6.339948701650092,
+                            "last": 6.315709965045706,
+                            "min": 6.315709965045706,
+                            "max": 6.339948701650092,
+                            "diff": -0.38231755089876684
+                        }
+                    },
+                    "makers": 2,
+                    "updatedAt": "2025-08-03T05:47:21.000Z",
+                    "volatility": 0.621862076286096
+                }
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 6,
+            "locks": [],
+            "name": "USD₮0",
+            "symbol": "USD₮0",
+            "totalSupply": "109481749565420",
+            "metrics": {
+                "circulatingSupply": 109481748.06542,
+                "maxSupply": 109481749.56542,
+                "totalSupply": 109481748.06542,
+                "holders": 19432,
+                "mcap": 109214359.14035131,
+                "fdv": 109214359.14035131
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "usdt0",
+                "description": "USDT0 ensures fast, secure, and cost-efficient cross-chain transfers all while maintaining a strict 1:1 backing with USDT.",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "ventures": false,
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                }
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "https://twitter.com/USDT0_to",
+                "website": "https://usdt0.to/",
+                "youtube": "",
+                "twitterPost": ""
+            },
+            "logo": "3/hyperevm/0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb.jpg?1737086183",
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex47b072",
+                    "pair": "0x161fb7d6c764f81dae581e8a4981772750416727",
+                    "token": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:27:12.505Z"
+            },
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0xb26f13f2fc6489e0a9d8733a0d83a1c771388dec",
+                "0xe8598c9723497643d8408f4620c756d2b65dc404",
+                "0xaf40975fefd9818431d4b8629d303026869837d1",
+                "0xf40d57783c3359f160d006b9bc7a2e4311fe6a86",
+                "0x337b56d87a6185cd46af3ac2cdf03cbc37070c30",
+                "0xa7bf1d0a3220151911fd76d608c207fc10bc84cd",
+                "0x13e0ace1ee157f21a253dfec9397e3a8025a5140",
+                "0x0b46e12fa89e9c81b74137d86154c1d1d45cb0af",
+                "0x80dd3611eac192fe6e6a6344670537431f735cc3",
+                "0x2990057d4afc1e84b89dee01aa18c225c5f9a75e",
+                "0x286bedd95e410bae6d143fb2b5fe14c0083003f7",
+                "0x7f63ac9b82905d870071024fa310cf0ab8a74ad1",
+                "0x4bebb3107aa4c47ff88668dbea560b75b2d36d6e",
+                "0x07a72dd310f836adc4bd202278c8adfe73577896",
+                "0x4bd892af63015e7c56c1381c220c642d65d0f0b6",
+                "0xb8c413ebf3985fd92e5cc416422e805cfd8b8165"
+            ]
+        },
+        "price": 0.9975576849128412,
+        "price24h": 1.0011276069201571,
+        "volume24h": 3.927500512084109,
+        "swaps24h": 2
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x306c7eea6c52311f1fb39a56ba43c4aa3bb07618",
+            "token": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+            "tokenRef": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb"
+        },
+        "pair": {
+            "creationBlock": 5852151,
+            "creationTime": "2025-06-15T15:40:00.000Z",
+            "creationTransaction": "0x6a5c24bd4377bed358bdfbb2565a674f51d5a86fab97b3151f69692866df718c",
+            "dextScore": {
+                "information": 21,
+                "holders": 99,
+                "pool": 1,
+                "transactions": 99,
+                "creation": 99,
+                "total": 67
+            },
+            "metrics": {
+                "liquidity": 12.47583554739141,
+                "txCount": 1494348,
+                "initialLiquidity": 3.989554498200821,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:46:56.837Z",
+                "initialReserve": 1.999825675898482,
+                "initialReserveRef": 1.999631,
+                "reserve": 2.298185248580684,
+                "reserveRef": 10.181265
+            },
+            "name": "USDeOFT",
+            "nameRef": "USD₮0",
+            "symbol": "USDe",
+            "symbolRef": "USD₮0",
+            "type": "token-token-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 0.9974752405763483,
+                    "eth": 0.024404258081773992,
+                    "blockNumber": 5852151
+                }
+            },
+            "firstSwapTimestamp": "2025-06-22T03:04:27.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T09:22:09.257Z"
+                },
+                "6h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T15:18:18.603Z"
+                },
+                "1h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T10:17:24.233Z"
+                },
+                "24h": {
+                    "volume": {
+                        "total": 0.003844043410342834,
+                        "buys": 0.003844043410342834,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 1,
+                        "buys": 1,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.9995303297036485,
+                            "last": 0.9995303297036485,
+                            "min": 0.9995303297036485,
+                            "max": 0.9995303297036485,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0.025977345679331774,
+                            "last": 0.025977345679331774,
+                            "min": 0.025977345679331774,
+                            "max": 0.025977345679331774,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 12.47583017447458,
+                            "last": 12.47583017447458,
+                            "min": 12.47583017447458,
+                            "max": 12.47583017447458,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 1,
+                    "updatedAt": "2025-08-03T09:16:56.000Z",
+                    "volatility": 0.00030811924790445666
+                }
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 18,
+            "locks": [],
+            "name": "USDeOFT",
+            "symbol": "USDe",
+            "totalSupply": "13773362750748000000000000",
+            "metrics": {
+                "circulatingSupply": 13508636.563146,
+                "maxSupply": 13773362.750748,
+                "totalSupply": 13773362.750748,
+                "holders": 10612,
+                "mcap": 13502291.957808083,
+                "fdv": 13766893.811383098
+            },
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dex2602e3",
+                    "pair": "0x1c501aff24ddef9abb58d4653f7bd41dbef68496",
+                    "token": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T16:26:12.051Z"
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "hyperevm-bridged-usde-hyperevm",
+                "description": "",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "ventures": false,
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                }
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "https://www.reddit.com",
+                "slack": "",
+                "telegram": "",
+                "tiktok": "",
+                "twitter": "",
+                "website": "",
+                "youtube": "",
+                "twitterPost": ""
+            },
+            "logo": "3/hyperevm/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.jpg?1748491903",
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0xc49c25c1c878a25aed257ad42edab6e2d37a54e9",
+                "0xdbe8f6198d0ff239e346de4ae4d9fc8925ad7847",
+                "0x22a2162fc5c9caa47ba1f00382e47ab563851a39",
+                "0x589395b457f2a8f7cf60ac08ac1b32dbd822c394",
+                "0x8e0ca0aac1e7ebdf5682f5fbe5a3311d08f59984",
+                "0x08d432f95212003b8c163bf18256a9464e585a77",
+                "0x6219c2d948801879fa5ff7bb3fcddf6b9de577ac",
+                "0x4c47fa9e0d0f888629a69c7f50cb985552df5b02",
+                "0x546c3c51bcac838bcff9b08f906ce39b7e8789c4",
+                "0x876910ea3ef50533080a2911e2ce7dfae95cb37b",
+                "0x03f8cf0d7b924a6a5f2579b8224c06e2530c980f",
+                "0x59eef7bf3a82fd7cc917c11f806b7d1e58e3217d",
+                "0xb99856e8bbf67544a3207bede15b94eb6c011eb2",
+                "0xb3a5930deba428f31d778f132b850673dd68c351",
+                "0x712898ffbc8840a8edae33e70c6f837759914fce",
+                "0xba79f5a728ac89f05ba91e0538194c460dfc0337",
+                "0x90203e5d298d6ccfc83912de11bda01510d44b7d"
+            ]
+        },
+        "price": 0.9995303297036485,
+        "price24h": 0.9995303297036485,
+        "volume24h": 0.003844043410342834,
+        "swaps24h": 1
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x24ecf7d3881256ccb518389a4f2716ac9bedd0e7",
+            "token": "0x3e5fba5dd52e931276b3c84df7542c2eeea1440b",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 5853615,
+            "creationTime": "2025-06-15T16:04:00.000Z",
+            "creationTransaction": "0xe4e2d926982daa98ecb701b23e370c8cf8402d21bbc39365166a29428bcca2f9",
+            "dextScore": {
+                "information": 99,
+                "holders": 99,
+                "pool": 1,
+                "transactions": 99,
+                "creation": 99,
+                "total": 82
+            },
+            "metrics": {
+                "liquidity": 219.10836639982614,
+                "txCount": 39686,
+                "initialLiquidity": 8.064392159767216,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:49:00.406Z",
+                "initialReserve": 6080.317696,
+                "initialReserveRef": 0.09892046709885477,
+                "reserve": 1001345.5187859631,
+                "reserveRef": 3.7887288893605504
+            },
+            "name": "HYPESPHERE",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "SPHERE",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 0.0006631554930980532,
+                    "eth": 0.000016268963571415858,
+                    "blockNumber": 5853615
+                }
+            },
+            "firstSwapTimestamp": "2025-06-15T16:33:57.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T14:09:49.149Z"
+                },
+                "6h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T08:53:12.446Z"
+                },
+                "1h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T15:04:44.190Z"
+                },
+                "24h": {
+                    "volume": {
+                        "total": 0.10235150905138249,
+                        "buys": 0,
+                        "sells": 0.10235150905138249
+                    },
+                    "swaps": {
+                        "total": 1,
+                        "buys": 0,
+                        "sells": 1
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.00007457788646126153,
+                            "last": 0.00007457788646126153,
+                            "min": 0.00007457788646126153,
+                            "max": 0.00007457788646126153,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0.0000019578359356626467,
+                            "last": 0.0000019578359356626467,
+                            "min": 0.0000019578359356626467,
+                            "max": 0.0000019578359356626467,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 2.759055380089224,
+                            "last": 2.759055380089224,
+                            "min": 2.759055380089224,
+                            "max": 2.759055380089224,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 1,
+                    "updatedAt": "2025-08-03T14:04:31.000Z",
+                    "volatility": 0.037096576527605826
+                }
+            },
+            "rugPull": {
+                "liquidityRemoved": true
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 6,
+            "locks": [],
+            "name": "HYPESPHERE",
+            "symbol": "SPHERE",
+            "totalSupply": "1000000000000000",
+            "metrics": {
+                "circulatingSupply": 909436632.996099,
+                "maxSupply": 1000000000,
+                "totalSupply": 909436632.996099,
+                "holders": 796,
+                "mcap": 67823.86195929504,
+                "fdv": 67823.86195929504
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "hype-sphere",
+                "description": "HypeSphere\r\nVisualize the Hype. Decode the Memes.\r\n\r\nHypeSphere is the first meme token analytics and discovery suite on HyperEVM, combining real-time sphere map visualizations, automated Telegram bots, and alpha-focused tools—powered by the $SPHERE token.\r\n\r\nWhy HypeSphere?\r\nDegens move fast. We move faster.\r\nIn a chain like HyperEVM, where meme tokens rise and fall in hours, there’s no time for slow data, broken tools, or outdated dashboards. HypeSphere brings on-chain market intelligence straight to your screen and your group chats.",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                },
+                "ventures": false
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "",
+                "slack": "",
+                "telegram": "https://t.me/hypesphereverify",
+                "tiktok": "",
+                "twitter": "https://twitter.com/hyprsphere",
+                "twitterPost": "",
+                "website": "https://www.spheres.fun/",
+                "youtube": ""
+            },
+            "logo": "3/hyperevm/0x3e5fba5dd52e931276b3c84df7542c2eeea1440b.png?1752391543",
+            "logoOnchain": "",
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dexc3b31b",
+                    "pair": "0xdbc9cf4e8d3741112ebc2970152e8d9b9684989a",
+                    "token": "0x3e5fba5dd52e931276b3c84df7542c2eeea1440b",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T14:06:07.791Z"
+            },
+            "rugPulledAt": [
+                "0x26a65c5f5a7fdb7864e5245402d12a8a13e7f2d2",
+                "0x79b4ad3bc847e2823f67479c757b87214d1797d3",
+                "0x2c88ef6d1c5c342dc92c75c0ccd02c33c56d43be",
+                "0x24ecf7d3881256ccb518389a4f2716ac9bedd0e7"
+            ]
+        },
+        "price": 0.00007457788646126153,
+        "price24h": 0.00007457788646126153,
+        "volume24h": 0.10235150905138249,
+        "swaps24h": 1
+    },
+    {
+        "_id": {
+            "chain": "hyperevm",
+            "exchange": "dexf3e585",
+            "pair": "0x54fc8b721b5909a7a26be16ac02b3f1377bd2eb8",
+            "token": "0x738dd55c272b0b686382f62dd4a590056839f4f6",
+            "tokenRef": "0x5555555555555555555555555555555555555555"
+        },
+        "pair": {
+            "creationBlock": 5856177,
+            "creationTime": "2025-06-15T16:46:00.000Z",
+            "creationTransaction": "0x03a9504e2a8e7e00423b6abe9d76279c72eef59b00f8a0f494fef82d4e8a18e2",
+            "dextScore": {
+                "information": 99,
+                "holders": 99,
+                "pool": 1,
+                "transactions": 99,
+                "creation": 99,
+                "total": 82
+            },
+            "metrics": {
+                "liquidity": 1.8311403913355175,
+                "txCount": 182131,
+                "initialLiquidity": 4.041281109416433,
+                "initialLiquidityUpdatedAt": "2025-06-16T14:52:34.894Z",
+                "initialReserve": 734.019319,
+                "initialReserveRef": 0.04964352884666393,
+                "reserve": 1509.117666,
+                "reserveRef": 0.024610606793286385
+            },
+            "name": "Holy Liquid",
+            "nameRef": "Wrapped HYPE",
+            "symbol": "HL",
+            "symbolRef": "WHYPE",
+            "type": "standard-pair",
+            "locks": [],
+            "pool": {
+                "openPrice": {
+                    "usd": 0.002752843831853792,
+                    "eth": 0.00006763245539281606,
+                    "blockNumber": 5856177
+                }
+            },
+            "firstSwapTimestamp": "2025-06-15T19:41:40.000Z",
+            "periodStats": {
+                "5m": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-02T22:12:21.426Z"
+                },
+                "1h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-02T23:07:59.449Z"
+                },
+                "6h": {
+                    "volume": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 0,
+                        "buys": 0,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 0,
+                            "last": 0,
+                            "min": 0,
+                            "max": 0,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 0,
+                    "updatedAt": "2025-08-03T04:07:42.967Z"
+                },
+                "24h": {
+                    "volume": {
+                        "total": 0.111891351153902,
+                        "buys": 0.111891351153902,
+                        "sells": 0
+                    },
+                    "swaps": {
+                        "total": 1,
+                        "buys": 1,
+                        "sells": 0
+                    },
+                    "price": {
+                        "usd": {
+                            "first": 0.0006045439781598604,
+                            "last": 0.0006045439781598604,
+                            "min": 0.0006045439781598604,
+                            "max": 0.0006045439781598604,
+                            "diff": 0
+                        },
+                        "chain": {
+                            "first": 0.000016192853114047796,
+                            "last": 0.000016192853114047796,
+                            "min": 0.000016192853114047796,
+                            "max": 0.000016192853114047796,
+                            "diff": 0
+                        }
+                    },
+                    "liquidity": {
+                        "usd": {
+                            "first": 1.807547438338851,
+                            "last": 1.807547438338851,
+                            "min": 1.807547438338851,
+                            "max": 1.807547438338851,
+                            "diff": 0
+                        }
+                    },
+                    "makers": 1,
+                    "updatedAt": "2025-08-02T22:07:03.000Z",
+                    "volatility": 0.061902304072711335
+                }
+            }
+        },
+        "token": {
+            "audit": {
+                "is_contract_renounced": false,
+                "url": ""
+            },
+            "decimals": 6,
+            "locks": [],
+            "name": "Holy Liquid",
+            "symbol": "HL",
+            "totalSupply": "1000000000000000",
+            "metrics": {
+                "circulatingSupply": 910459484.478055,
+                "maxSupply": 1000000000,
+                "totalSupply": 910459484.478055,
+                "holders": 1613,
+                "mcap": 550412.798699739,
+                "fdv": 550412.798699739
+            },
+            "reprPair": {
+                "id": {
+                    "chain": "hyperevm",
+                    "exchange": "dexea1c48",
+                    "pair": "0x0c278010bf21bae386b6ce4440535970a4ea5238",
+                    "token": "0x738dd55c272b0b686382f62dd4a590056839f4f6",
+                    "tokenRef": "0x5555555555555555555555555555555555555555"
+                },
+                "updatedAt": "2025-08-03T14:10:13.710Z"
+            },
+            "banner": "",
+            "categories": [],
+            "info": {
+                "blueCheckmark": null,
+                "cmc": "",
+                "coingecko": "holy-liquid",
+                "description": "Holy Liquid is a token in the category of memes on the HyperEVM blockchain. The logo of the token is a jar with a cross on it, all within a certain style and aesthetics (turquoise blue). The token is in line with the 2025 Jubilee year, this is also what the name and logo refer to. Holy Liquid is not just any token. It's the sacred essence of internet absurdity distilled into digital form. It's what happens when irony meets decentralization and gets baptized in holy volatility.\r\n\r\nBorn in the fiery pits of meme culture and anointed by the blockchain, Holy Liquid flows through the veins of crypto Twitter, dispensing enlightenment, laughter, and occasionally, profit.",
+                "dextools": false,
+                "dextoolsUpdatedAt": null,
+                "email": "",
+                "extraInfo": "",
+                "nftCollection": "",
+                "twitterStats": {
+                    "followers": "",
+                    "history": ""
+                },
+                "ventures": false
+            },
+            "links": {
+                "bitbucket": "",
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "instagram": "",
+                "linkedin": "",
+                "medium": "",
+                "reddit": "",
+                "slack": "",
+                "telegram": "https://t.me/HolyLiquidEVM",
+                "tiktok": "",
+                "twitter": "https://twitter.com/HolyLiquidEVM",
+                "twitterPost": "",
+                "website": "https://holyliquid.org",
+                "youtube": ""
+            },
+            "logo": "3/hyperevm/0x738dd55c272b0b686382f62dd4a590056839f4f6.jpeg?1749574229",
+            "logoOnchain": "",
+            "rugPulledAt": [
+                "0x9b858a6c46fa33d47166f8ac9d5e3ac19a3ed531",
+                "0x796f05a7723001d163aefad5485ab7bbcc71b1af",
+                "0xc513f2185bdbda28e7b80198fffcafce4048187c",
+                "0x85d22fd6a8f7be93c8950685e129029dbc6f4adf"
+            ]
+        },
+        "price": 0.0006045439781598604,
+        "price24h": 0.0006045439781598604,
+        "volume24h": 0.111891351153902,
+        "swaps24h": 1
+    }
+]
