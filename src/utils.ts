@@ -97,6 +97,11 @@ export async function fetchExtraData(
             address: pairAddress,
             functionName: "fee",
           }),
+          tick_spacing: await client.readContract({
+            abi: UniswapV3PoolAbi,
+            address: pairAddress,
+            functionName: "tickSpacing",
+          }),
         },
       };
     case EProtocol.Gliquid:

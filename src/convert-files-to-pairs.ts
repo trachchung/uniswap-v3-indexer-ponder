@@ -12,13 +12,13 @@ async function main() {
     // EProtocol.HyperswapV2,
     // EProtocol.HyperswapV3,
     // EProtocol.HybraFinance,
-    EProtocol.ProjectX,
-    EProtocol.RamsesV2,
+    // EProtocol.ProjectX,
+    // EProtocol.RamsesV2,
     EProtocol.RamsesV3,
     // EProtocol.Gliquid,
     // EProtocol.HyperBrick,
-    EProtocol.LaminarV2,
-    EProtocol.LaminarV3,
+    // EProtocol.LaminarV2,
+    // EProtocol.LaminarV3,
     // EProtocol.HyperCat,
   ];
 
